@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  bulwarkd The Bulwark core server.
+#  tuscd The TUSC core server.
 #
 #
 # chkconfig: 345 80 20
-# description: bulwarkd
-# processname: bulwarkd
+# description: tuscd
+# processname: tuscd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/bulwarkd, see below
-if [ -f /etc/sysconfig/bulwarkd ]; then
-        . /etc/sysconfig/bulwarkd
+# you can override defaults in /etc/sysconfig/tuscd, see below
+if [ -f /etc/sysconfig/tuscd ]; then
+        . /etc/sysconfig/tuscd
 fi
 
 RETVAL=0
 
-prog=bulwarkd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bulwarkd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bulwarkd}
+prog=tuscd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/tuscd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/tuscd}
 
-# bulwarkd defaults to /usr/bin/bulwarkd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/bulwarkd}
+# tuscd defaults to /usr/bin/tuscd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/tuscd}
 
-# bulwarkd opts default to -disablewallet, override with BITCOIND_OPTS
+# tuscd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

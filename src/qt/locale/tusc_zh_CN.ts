@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>bulwark-core</name>
+    <name>tusc-core</name>
     </context>
 </TS>
