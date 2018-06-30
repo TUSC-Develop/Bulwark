@@ -149,7 +149,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1530378900;
+        genesis.nTime = 1530378901;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
         genesis.nNonce = 0;
         MineGenesis(genesis);
