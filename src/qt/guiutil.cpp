@@ -111,11 +111,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-<<<<<<< HEAD
     widget->setPlaceholderText(QObject::tr("Enter a TUSC address (e.g. %1)").arg("bWMiJk57wsPJuGFFJCp8MzSsvzepf7CFAi"));
-=======
-    widget->setPlaceholderText(QObject::tr("Enter a Bulwark address (e.g. %1)").arg("bWMiJk57wsPJuGFFJCp8MzSsvzepf7CFAi"));
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));

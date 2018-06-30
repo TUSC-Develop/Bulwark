@@ -26,15 +26,9 @@ Drag TUSC-Qt to your applications folder, and then run TUSC-Qt.
 
 ### Need Help?
 
-<<<<<<< HEAD
 * See the documentation at the [TUSC KB](https://kb.tusccrypto.com)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or on the [TUSC Discord](https://discord.gg/a7vhegP).
-=======
-* See the documentation at the [Bulwark KB](https://kb.bulwarkcrypto.com)
-for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or on the [Bulwark Discord](https://discord.gg/a7vhegP).
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 
 Building
 ---------------------
@@ -60,11 +54,7 @@ The TUSC repo's [root README](https://github.com/tusc-crypto/TUSC/blob/master/RE
 
 ### Resources
 
-<<<<<<< HEAD
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or the [TUSC Subreddit](http://reddit.com/r/tusccoin).
-=======
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or the [Bulwark Subreddit](http://reddit.com/r/bulwarkcoin).
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

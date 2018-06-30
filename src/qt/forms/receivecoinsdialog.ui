@@ -141,11 +141,7 @@
              <string>Generate Address</string>
             </property>
             <property name="icon" stdset="0">
-<<<<<<< HEAD
              <iconset resource="../tusc.qrc">
-=======
-             <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
               <normaloff>:/icons/receiving_addresses</normaloff>:/icons/receiving_addresses</iconset>
             </property>
            </widget>
@@ -165,11 +161,7 @@
              <string>Clear</string>
             </property>
             <property name="icon" stdset="0">
-<<<<<<< HEAD
              <iconset resource="../tusc.qrc">
-=======
-             <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
               <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
             </property>
             <property name="autoDefault" stdset="0">
@@ -309,11 +301,7 @@
            <string>Show</string>
           </property>
           <property name="icon" stdset="0">
-<<<<<<< HEAD
            <iconset resource="../tusc.qrc">
-=======
-           <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
             <normaloff>:/icons/edit</normaloff>:/icons/edit</iconset>
           </property>
           <property name="autoDefault" stdset="0">
@@ -333,11 +321,7 @@
            <string>Remove</string>
           </property>
           <property name="icon" stdset="0">
-<<<<<<< HEAD
            <iconset resource="../tusc.qrc">
-=======
-           <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
             <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
           </property>
           <property name="autoDefault" stdset="0">

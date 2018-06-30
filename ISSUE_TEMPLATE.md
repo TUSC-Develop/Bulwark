@@ -21,11 +21,7 @@ As a <user|developer|...>, I want to <task> so that <goal>.
 ### Reproduction
 [comment]: # (Describe how we can replicate the bug step by step.)
 
-<<<<<<< HEAD
 - Open TUSC
-=======
-- Open Bulwark
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 - ...
 - Step 3, etc.
 
@@ -38,11 +34,7 @@ As a <user|developer|...>, I want to <task> so that <goal>.
 
 ### Additional Information
 [comment]: # (Please do your best to fill this out.)
-<<<<<<< HEAD
 * TUSC version: ...
-=======
-* Bulwark version: ...
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 [comment]: # (Windows, MacOS or Linux.)
 * Operating System: <Windows|macOS|Linux>
 

@@ -44,13 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-<<<<<<< HEAD
         git clone https://github.com/tusc-crypto/TUSC
         cd TUSC
-=======
-        git clone https://github.com/bulwark-crypto/Bulwark
-        cd Bulwark
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 
 2.  Build tuscd:
 
