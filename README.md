@@ -37,6 +37,6 @@ That Universal Saving Coin offers both SwiftTX and Obfuscation to enable speedy 
 
 | Subsidy | Block           | Budget | Circulation    | Note          |
 |---------|-----------------|--------|----------------|---------------|
-| 50.000  | 301-200000      | 0%     | SeeSaw         | Year 1        |
+| 42.000  | 301-200000      | 0%     | SeeSaw         | Year 1        |
 | 37.500  | 200001-259200   | 0%     | 35/65          | Year 1        |
 | 31.250  | 259201-345600   | 0%     | 35/65          | Year 1        |
