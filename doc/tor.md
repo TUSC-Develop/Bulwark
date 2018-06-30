@@ -69,7 +69,11 @@ NumEntryGuards 8
 ```
 
 The directory can be different of course, but (both) port numbers should be equal to
+<<<<<<< HEAD
 your tuscd's P2P listen port (20231 by default).
+=======
+your bulwarkd's P2P listen port (20231 by default).
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 ```
 -externalip=X   You can tell tusc about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above

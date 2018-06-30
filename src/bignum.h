@@ -1,7 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2017 The PIVX developers
+<<<<<<< HEAD
 // Copyright (c) 2018 The TUSC developers
+=======
+// Copyright (c) 2018 The Bulwark developers
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_BIGNUM_H

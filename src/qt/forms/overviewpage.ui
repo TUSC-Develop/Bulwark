@@ -77,7 +77,11 @@
                <cursorShape>WhatsThisCursor</cursorShape>
               </property>
               <property name="toolTip">
+<<<<<<< HEAD
                <string>The displayed information may be out of date. Your wallet automatically synchronizes with the TUSC network after a connection is established, but this process has not completed yet.</string>
+=======
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Bulwark network after a connection is established, but this process has not completed yet.</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>
@@ -567,7 +571,11 @@
               </font>
              </property>
              <property name="text">
+<<<<<<< HEAD
               <string notr="true">0 TUSC</string>
+=======
+              <string notr="true">0 BWK</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
              </property>
             </widget>
            </item>
@@ -593,7 +601,11 @@
               </font>
              </property>
              <property name="text">
+<<<<<<< HEAD
               <string>0 TUSC / 0 Rounds</string>
+=======
+              <string>0 BWK / 0 Rounds</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
              </property>
             </widget>
            </item>
@@ -1251,7 +1263,11 @@
               </font>
              </property>
              <property name="toolTip">
+<<<<<<< HEAD
               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the TUSC network after a connection is established, but this process has not completed yet.</string>
+=======
+              <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Bulwark network after a connection is established, but this process has not completed yet.</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
              </property>
              <property name="styleSheet">
               <string notr="true">QLabel { color: red; }</string>
@@ -1330,7 +1346,11 @@
                <cursorShape>WhatsThisCursor</cursorShape>
               </property>
               <property name="toolTip">
+<<<<<<< HEAD
                <string>The displayed information may be out of date. Your wallet automatically synchronizes with the TUSC network after a connection is established, but this process has not completed yet.</string>
+=======
+               <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Bulwark network after a connection is established, but this process has not completed yet.</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
               </property>
               <property name="styleSheet">
                <string notr="true">QLabel { color: red; }</string>

@@ -2,7 +2,11 @@
 Construct a linear, no-fork, best version of the Bitcoin blockchain. The scripts
 run using Python 3 but are compatible with Python 2.
 
+<<<<<<< HEAD
 REQUIRED: [nist5_hash](https://github.com/tusc-crypto/nist5_hash)
+=======
+REQUIRED: [nist5_hash](https://github.com/bulwark-crypto/nist5_hash)
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 
 ## Step 1: Download hash list
 

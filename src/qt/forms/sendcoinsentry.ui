@@ -39,7 +39,11 @@
     <item row="3" column="1">
      <widget class="QLabel" name="messageTextLabel">
       <property name="toolTip">
+<<<<<<< HEAD
        <string>A message that was attached to the TUSC: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TUSC network.</string>
+=======
+       <string>A message that was attached to the Bulwark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bulwark network.</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
       </property>
       <property name="textFormat">
        <enum>Qt::PlainText</enum>
