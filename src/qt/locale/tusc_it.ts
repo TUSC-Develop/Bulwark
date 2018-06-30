@@ -1,258 +1,258 @@
-<TS language="sk" version="2.1">
+<TS language="it" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Pravým tlačidlom myši upravte adresu alebo štítok</translation>
+        <translation>Fare click col pulsante destro per modificare l'indirizzo o l'etichetta</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Vytvoriť novú adresu</translation>
+        <translation>Crea un nuovo indirizzo</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Nový</translation>
+        <translation>&amp;Nuovo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Skopírovať označenú adresu do schránky</translation>
+        <translation>Copia l'indirizzo selezionato negli appunti</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Kopírovať</translation>
+        <translation>&amp;Copia</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Vymazať označenú adresu zo zoznamu</translation>
+        <translation>Elimina l'indirizzo selezionato dalla lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Vymazať</translation>
+        <translation>&amp;Elimina</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať údaje na aktuálnej karte do súboru</translation>
+        <translation>Esporta i dati della scheda corrente in un file</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Exportovať</translation>
+        <translation>&amp;Esporta</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Zatvoriť</translation>
+        <translation>C&amp;hiudi</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Vyberte adresu, na ktorú chcete odoslať mince</translation>
+        <translation>Seleziona l'indirizzo a cui inviare valuta</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Vyberte adresu, na ktorej chcete mince prijať</translation>
+        <translation>Seleziona l'indirizzo a cui ricevere valuta</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Vybrať</translation>
+        <translation>&amp;Seleziona</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Odosielacia adresa</translation>
+        <translation>Indirizzi di destinazione</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Prijímacia adresa</translation>
+        <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
         <source>These are your Tusc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Tusc adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <translation>Questi sono gli indirizzi Tusc per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
         <source>These are your Tusc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Tusc adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <translation>Questi sono gli indirizzi Tusc per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Skopírovať adresu</translation>
+        <translation>&amp;Copia indirizzo</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Skopírovať štítok</translation>
+        <translation>Copia &amp;etichetta</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Editovať</translation>
+        <translation>&amp;Modifica</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Exportovať zoznamu adries</translation>
+        <translation>Esporta elenco indirizzi</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Súbor oddelený čiarkami (*.csv)</translation>
+        <translation>File separato da virgola (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export zlyhal</translation>
+        <translation>Esportazione fallita</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Pri pokuse o uloženie zoznamu adries na %1 sa vyskytla chyba. Prosím skúste znova.</translation>
+        <translation>Si è verificato un errore nel salvataggio dell'elenco indirizzi in %1. Si prega di ritentare.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Štítok</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(žiaden štítok)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Okno prístupovej frázy</translation>
+        <translation>Inserimento parola d'ordine</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Zadajte prístupovú frázu</translation>
+        <translation>Inserire parola d'ordine</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nová prístupová fráza</translation>
+        <translation>Nuova parola d'ordine</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Zopakujte prístupovú frázu</translation>
+        <translation>Ripetere la nuova parola d'ordine</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Slúži na zakázanie obyčajného odoslania peňazí, v prípade, že bol OS účet kompromitovaný. Neposkytuje žiadnu skutočnú bezpečnosť.</translation>
+        <translation>Serve per impedire invii accidentali nel caso in cui l'utenza del sistema operativo sia stata compromessa. Non garantisce alcuna reale sicurezza.</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>Len pre anonymizáciu a staking</translation>
+        <translation>Esclusivamente per anonimizzazione e staking</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Zadajte novú prístupovú frázu do peňaženky. &lt;br/&gt; Použite prístupovú frázu &lt;b&gt;, ktorá má desať alebo viac náhodných znakov &lt;/ b&gt; alebo &lt;b&gt; osem alebo viac slov &lt;/ b&gt;.</translation>
+        <translation>Inserisci la nuova parola d'ordine per il portafoglio.&lt;br/&gt;Si raccomanda di usare una parola d'ordine di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, oppure di &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Šifrovať peňaženku</translation>
+        <translation>Crittografa portafoglio</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Táto operácia potrebuje prístupovú frázu peňaženky na odomknutie peňaženky.</translation>
+        <translation>Questa operazione richiede la parola d'ordine per sbloccare il portafoglio.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
+        <translation>Sblocca portafoglio</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Táto operácia potrebuje prístupovú frázu peňaženky na dešifrovanie peňaženky.</translation>
+        <translation>Questa operazione richiede la parola d'ordine per decrittografare il portafoglio.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dešifrovať peňaženku</translation>
+        <translation>Decrittografa portafoglio</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zmeniť prístupovú frázu</translation>
+        <translation>Cambia parola d'ordine</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Zadajte starú a novú prístupovú frázu do peňaženky.</translation>
+        <translation>Inserire la vecchia e la nuova parola d'ordine per il portafoglio.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrďte šifrovanie peňaženky</translation>
+        <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
         <source>Tusc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
-        <translation>Tusc sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše TUSC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <translation>Tusc verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi TUSC dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
+        <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY TUSC &lt;/ b&gt;!</translation>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI TUSC&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Peňaženka zašifrovaná</translation>
+        <translation>Portafoglio crittografato</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy súboru peňaženky, by mali byť nahradené novo vytvoreným šifrovaným súborom peňaženky. Z bezpečnostných dôvodov sa predchádzajúce zálohy súboru nezašifrovanej peňaženky stanú nepotrebné, akonáhle začnete používať novú zašifrovanú peňaženku.</translation>
+        <translation>IMPORTANTE: Eventuali file di back-up precedenti del tuo portafoglio dovrebbero essere sostituiti con il nuovo file criptato generato. Per motivi di sicurezza, precedenti file di back-up del portafoglio non criptato diventeranno inutilizzabili nel momento in cui inizierai ad utilizzare il nuovo portafoglio criptato.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Šifrovanie peňaženky zlyhalo</translation>
+        <translation>Cifratura portafoglio fallita</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifrovanie peňaženky zlyhalo kvôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
+        <translation>La cifratura del portafoglio è fallita a causa di un errore interno. Il portafoglio non è stato crittografato.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Zadané prístupové frázy sa nezhodujú.</translation>
+        <translation>Le parole d'ordine fornite con coincidono.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odomknutie peňaženky zlyhalo</translation>
+        <translation>Sblocco portafoglio fallito</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Zadaná prístupová fráza pre dešifrovanie peňaženky bola nesprávna.</translation>
+        <translation>La frase immessa per la decifrazione del portafoglio era errata.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Dešifrovanie peňaženky zlyhalo</translation>
+        <translation>Decriptazione portafoglio fallita</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Prístupová fráza pre peňaženku bola úspešne zmenená.</translation>
+        <translation>La passphrase del portafoglio è stata modificata correttamente.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozornenie: Tlačidlo Caps Lock je zapnuté!</translation>
+        <translation>Attenzione: il tasto Caps Lock è attivato!</translation>
     </message>
 </context>
 <context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Utilita</translation>
+        <translation>BIP 38 Strumento</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>BIP 38 Šifrovanie</translation>
+        <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
         <source>Enter a Tusc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Tusc, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <translation>Inserisci un indirizzo Tusc che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adresa:</translation>
+        <translation>Indirizzo:</translation>
     </message>
     <message>
         <source>The Tusc address to sign the message with</source>
-        <translation>Adresa Tusc, ktorou chcete správu podpísať</translation>
+        <translation>L'indirizzo Tusc per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
+        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -260,7 +260,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
+        <translation>Incolla l'indirizzo dagli appunti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -268,334 +268,326 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Prístupová fráza:</translation>
+        <translation>Passphrase:</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
-        <translation>Šifrovaný kľúč:</translation>
+        <translation>Chiave crittografata:</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Skopírujte aktuálny podpis do schránky</translation>
+        <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Tusc address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Tusc adresy</translation>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Tusc</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
-        <translation>Zašifrovať kľúč</translation>
+        <translation>Cripta &amp;Key</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Zmazať všetky polia správy</translation>
+        <translation>Reimposta tutti i campi del messaggio segno</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Všetko zmazať</translation>
+        <translation>Cancella &amp;All</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>BIP 38 dešifrovanie</translation>
+        <translation>&amp;BIP 38 Decripta</translation>
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
+        <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
         <source>The Tusc address the message was signed with</source>
-        <translation>Tusc adresa, ktorou bola správa podpísaná</translation>
+        <translation>L'indirizzo Tusc con cui è stato firmato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tusc address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Tusc adresou</translation>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Tusc specificato </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Dešifrovať kľúč</translation>
+        <translation>Decripta &amp;Key</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Zmazať všetky polia verifikácie správy</translation>
+        <translation>Ripristinare tutti i campi del messaggio verificati</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Dešifrovaný kľúč:</translation>
+        <translation>Chiave decifrata:</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Importovať adresu:</translation>
+        <translation>Importa indirizzo</translation>
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Kliknite na tlačidlo "Dešifrovať kľúč" pre výpočet kľúča</translation>
+        <translation>Fai clic su "Decripta Chiave" per calcolare la chiave</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Zadaná prístupová fráza je neplatná.</translation>
+        <translation>La frase inserita non è valida.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Povolené: 0-9, a-z, A-Z,</translation>
+        <translation>Sono ammessi: 0-9, a-z, A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Zadaná adresa je neplatná.</translation>
+        <translation>L'indirizzo inserito non è valido.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Skontrolujte adresu a skúste to znova.</translation>
+        <translation>Per favore controlla l'indirizzo e riprova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Zadaná adresa neodkazuje na kľúč.</translation>
+        <translation>L'indirizzo inserito non corrisponde a una chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odomknutie peňaženky bolo zrušené.</translation>
+        <translation>Lo sblocco portafoglio è stato annullato.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Súkromný kľúč pre zadanú adresu nie je k dispozícii.</translation>
+        <translation>La chiave privata per l'indirizzo inserito non è disponibile.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Dešifrovanie zlyhalo.</translation>
+        <translation>Decriptazione fallita.</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Skontrolujte, prosím, kľúč a prístupovú frázu a skúste to znova.</translation>
+        <translation>Controllare la chiave e la frase e riprovare.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Neplatné dáta.</translation>
+        <translation>Dati non validi.</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Prosím skúste znova.</translation>
+        <translation>Per favore prova ancora.</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Počkajte, kým sa importuje kľúč</translation>
+        <translation>Per favore attendere l'importazione della chiave</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
-        <translation>Kľúč je už uložený v peňaženke</translation>
+        <translation>Chiave già presente nel portafoglio</translation>
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Chyba pri pridávaní kľúča do peňaženky</translation>
+        <translation>Errore nell'inserimento della chiave nel portafoglio</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>Súkromný kľúč bol úspešne pridaný do peňaženky</translation>
+        <translation>Chiave privata inserita correttamente nel portafoglio</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Peňaženka</translation>
+        <translation>Portafoglio</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Uzol</translation>
+        <translation>Nodo</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>Prehľad</translation>
+        <translation>&amp;Riepilogo</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Zobraziť všeobecný prehľad peňaženky</translation>
+        <translation>Mostra un riepilogo generale del portafoglio</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Odoslať</translation>
+        <translation>&amp;Invia</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Prijať</translation>
+        <translation>&amp;Ricevi</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>Transakcie</translation>
+        <translation>&amp;Transazioni</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Prezrieť históriu transakcií</translation>
+        <translation>Espora la cronologia delle transazioni</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Koniec</translation>
+        <translation>&amp;Esci</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Ukončiť aplikáciu</translation>
+        <translation>Chiude l'applicazione</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O aplikácii</translation>
+        <translation>Informazioni su &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Zobraziť informácie o Qt</translation>
+        <translation>Visualizza informazioni su Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Možnosti...</translation>
+        <translation>&amp;Opzioni...</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>Zobraziť / Skryť</translation>
+        <translation>&amp;Mostra / Nascondi</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Zobraziť alebo skryť hlavné okno</translation>
+        <translation>Mostra o nasconde la finestra principale</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Šifrovať peňaženku...</translation>
+        <translation>&amp;Cifra portafoglio...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Šifrujte súkromné kľúče, ktoré patria Vašej peňaženke</translation>
+        <translation>Crittografa le chiavi private nel tuo portafoglio</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Zálohovať peňaženku...</translation>
+        <translation>&amp;Backup portafoglio...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Zálohovať peňaženku na iné miesto</translation>
+        <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posizione</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Zmeniť prístupovú frázu...</translation>
+        <translation>&amp;Modifica parola d'ordine...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmeniť prístupovú frázu, ktorá bola použitá na šifrovanie peňaženky</translation>
+        <translation>Modifica la parola d'ordine utilizzata per la crittografia del portafoglio</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Odomknúť peňaženku...</translation>
+        <translation>&amp;Sblocca portafoglio</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
+        <translation>Sblocca portafoglio</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Zamknúť peňaženku</translation>
+        <translation>&amp;Blocca portafoglio</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Podpísať správu...</translation>
+        <translation>&amp;Firma messaggio...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Overiť správu...</translation>
+        <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Informácie</translation>
+        <translation>&amp;Informazioni</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Zobraziť diagnostické informácie</translation>
+        <translation>Visualizza informazioni di diagnostica</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>Debugovacia konzola</translation>
+        <translation>&amp;Console di debug</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Otvoriť debugovaciu konzola</translation>
+        <translation>Apri la console di debug</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>Monitor siete</translation>
+        <translation>&amp;Monitor rete</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Zobraziť monitor siete</translation>
+        <translation>Mostra monitor di rete</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>Zoznam uzlov</translation>
+        <translation>&amp;Lista peers</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Zobraziť informácie o uzloch</translation>
+        <translation>Mostra le informazioni sui peer</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Oprava peňaženky</translation>
+        <translation>&amp;Ripara portafoglio</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Zobraziť možnosti opravy peňaženky</translation>
+        <translation>Mostra opzioni di riparazione del portafoglio</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Otvoriť konfiguračný súbor</translation>
+        <translation>Apri il file di configurazione</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Zobraziť automatické zálohy</translation>
+        <translation>Mostra &amp;Backup automatici</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Zobraziť automaticky vytvorené zálohy peňaženky</translation>
+        <translation>Mostra i backup dei portafogli creati automaticamente</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Odosielacie adresy</translation>
+        <translation>&amp;Indirizzi Sorgente</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Zobraziť zoznam použitých odosielajúcich adries a štítkov</translation>
+        <translation>Mostra l'elenco degli indirizzi e delle etichette di invio utilizzati</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Prijímacie adresy...</translation>
+        <translation>&amp;Indirizzi di Destinazione</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Zobraziť zoznam použitých odosielajúcich adries a štítkov</translation>
+        <translation>Mostra l'elenco degli indirizzi e delle etichette di ricezione utilizzati</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otvoriť URI...</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>Možnosti príkazového riadku</translation>
+        <translation>Apri URL</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchronizácia dodatočných údajov: %p%</translation>
-    </message>
-    <message>
-        <source>&amp;File</source>
-        <translation>Súbor</translation>
+        <translation>Sincronizzazione dati addizionali: %p%</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>Nastavenia</translation>
+        <translation>&amp;Impostazioni</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>Nástroje</translation>
+        <translation>&amp;Strumenti</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Pomoc</translation>
+        <translation>&amp;Aiuto</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Panel nástrojov Záložky</translation>
+        <translation>Schede degli strumenti</translation>
     </message>
     <message>
         <source>Tusc Core</source>
@@ -603,11 +595,11 @@
     </message>
     <message>
         <source>Send coins to a Tusc address</source>
-        <translation>Odoslať mince na adresu Tusc</translation>
+        <translation>Invia monete all' indirizzo Tusc</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and tusc: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a tusc: identifikátory URI)</translation>
+        <translation>Richiedi pagamenti (genera codici QR e tusc: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -615,139 +607,99 @@
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Prezrieť masternody</translation>
+        <translation>Esplora i masternodes</translation>
     </message>
     <message>
         <source>&amp;About Tusc Core</source>
-        <translation>O Tusc Core</translation>
+        <translation>&amp;Informazioni Tusc Core</translation>
     </message>
     <message>
         <source>Show information about Tusc Core</source>
-        <translation>Zobraziť informácie o Tusc Core</translation>
+        <translation>Visualizza informazioni su Tusc Core</translation>
     </message>
     <message>
         <source>Modify configuration options for Tusc</source>
-        <translation>Zmeňte možnosti konfigurácie pre Tusc</translation>
+        <translation>Modifica le opzioni di configurazione per Tusc</translation>
     </message>
     <message>
         <source>Sign messages with your Tusc addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Tusc, aby ste preukázali, že ich vlastníte</translation>
+        <translation>Firma i messaggi con i tuoi indirizzi Tusc per dimostrare di essere il proprietario </translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tusc addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Tusc adresami</translation>
-    </message>
-    <message>
-        <source>&amp;BIP38 tool</source>
-        <translation>BIP 38 Utilita</translation>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi Tusc specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Šifrovať a dešifrovať privátne kľúče pomocou prístupovej frázy</translation>
-    </message>
-    <message>
-        <source>&amp;MultiSend</source>
-        <translation>&amp;MultiSend</translation>
+        <translation>Crittografa e decrittografa le chiavi private usando una passphrase</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend Nastavenia</translation>
-    </message>
-    <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otvoriť konfiguračný súbor peňaženky</translation>
-    </message>
-    <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otvoriť konfiguračný súbor masternodu</translation>
-    </message>
-    <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Otvoriť konfiguračný súbor masternodu</translation>
+        <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
         <source>Open a Tusc: URI or payment request</source>
-        <translation>Otvorte Tusc: URI alebo žiadosť o platbu</translation>
-    </message>
-    <message>
-        <source>&amp;Blockchain explorer</source>
-        <translation>Blockchain prehliadač</translation>
+        <translation>Apri un Tusc: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Okno blockchain prehliadača</translation>
+        <translation>Finestra Block Explorer</translation>
     </message>
     <message>
         <source>Show the Tusc Core help message to get a list with possible Tusc command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Tusc Core a získajte zoznam možností príkazového riadka Tusc</translation>
-    </message>
-    <message>
-        <source>Tusc Core client</source>
-        <translation>Tusc Core klient</translation>
+        <translation>Mostra il messaggio di aiuto Tusc Core per ottenere un elenco con le possibili opzioni di riga di comando Tusc</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizácia so sieťou ...</translation>
+        <translation>Sincronizzazione con la rete ...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importovanie blokov z disku ...</translation>
+        <translation>Importazione di blocchi dal disco ...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindexovanie blokov na disku ...</translation>
+        <translation>Reindicizzazione blocchi su disco ...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Nie je dostupný žiadny zdroj blokov...</translation>
+        <translation>Nessuna sorgente dei blocchi disponibile ...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Aktuálny</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 a %2</translation>
-    </message>
-    <message>
-        <source>%1 behind</source>
-        <translation>%1 pozadu</translation>
-    </message>
-    <message>
-        <source>Catching up...</source>
-        <translation>Dobieham...</translation>
+        <translation>Aggiornato</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Posledný prijatý blok bol vytvorený pred %1.</translation>
+        <translation>L'ultimo blocco ricevuto è stato generato %1 fa.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Po tomto ešte transakcie nebudú viditeľné.</translation>
+        <translation>Le transazioni successive non saranno visibili per ora.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varovanie</translation>
+        <translation>Avvertimento</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácia</translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Odoslaná transakcia</translation>
+        <translation>Transazioni Inviate</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Prichádzajúca transakcia</translation>
+        <translation>Transazione in entrata</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Poslať MultiSend transakciu</translation>
+        <translation>Transazioni MultiSend inviate</translation>
     </message>
     <message>
         <source>Date: %1
@@ -755,183 +707,240 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Dátum: %1
-Suma: %2
-Typ: %3
-Adresa: %4
+        <translation>Data: %1
+Ammontare: %2
+Tipo: %3
+Indirizzo: %4
 </translation>
     </message>
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Staking je aktívny
+        <translation>Lo Stacking è attivo
 MultiSend: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktívny</translation>
+        <translation>Attivo </translation>
     </message>
     <message>
         <source>Not Active</source>
-        <translation>Neaktívny</translation>
+        <translation>Non Attivo</translation>
     </message>
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
-        <translation>Staking nie je aktívny
+        <translation>Lo Staking non è attivo
 MultiSend: %1</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;odomknutá&lt;/ b&gt;</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne &lt;b&gt;odomknutá&lt;/ b&gt; iba na anonymizáciu a staking</translation>
+        <translation>Il portafoglio è &lt;b&gt;crittografato&lt;/b&gt; e attualmente &lt;b&gt;sbloccato&lt;/b&gt; per l'anonimizzazione e il solo stacking</translation>
     </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;zamknutá&lt;/ b&gt;</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Blockchain prehliadač</translation>
+        <translation>Esplora catena dei blocchi</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Adresa / Blok / Transakcia</translation>
+        <translation>Indirizzo / Blocco / Transazione</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Hľadať</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>Cerca</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (tusc.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (tusc.conf) nastaviť txindex = 1.</translation>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (tusc.conf)</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
-    <message>
-        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Sumár: %1 (OBF kompatibilné: %2 / Zapnuté: %3)</translation>
-    </message>
-    <message>
-        <source>Network Alert</source>
-        <translation>Upozornenie siete </translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Množstvo:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytov:</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Suma:</translation>
+        <translation>Totale:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priorita:</translation>
+        <translation>Priorità:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Poplatok:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Po poplatku:</translation>
+        <translation>Tassa:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Zmena:</translation>
+        <translation>Differenza:</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Modalità albero</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Modalità lista</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation>Ammontare</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Ricevute con etichetta</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Ricevute con indirizzo</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potvrdenia</translation>
+        <translation>Conferme</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrdené</translation>
+        <translation>Confermata</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Priorita</translation>
+        <translation>Priorità</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Skopírovať adresu</translation>
+        <translation>Copia indirizzo</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Skopírovať štítok</translation>
+        <translation>Copia etichetta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
+        <translation>Copia ammontare</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopírovať ID transakcie</translation>
+        <translation>Copia ID transazione</translation>
+    </message>
+    <message>
+        <source>Please switch to "List mode" to use this function.</source>
+        <translation>Prego selezionare "Modalità lista" per utilizzare questa funzione</translation>
+    </message>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>si
+</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>no</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Questa etichetta diventerà rossa se la transazione supera i 1000 bytes</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(žiaden štítok)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Modifica indirizzo</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Etichetta</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Indirizzo</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Impossibile sbloccare il portafoglio</translation>
+    </message>
     </context>
 <context>
     <name>FreespaceChecker</name>
+    <message>
+        <source>name</source>
+        <translation>nome</translation>
+    </message>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <source>version</source>
+        <translation>versione</translation>
+    </message>
+    <message>
         <source>Tusc Core</source>
         <translation>Tusc Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Opzioni linea di comando</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Utilizzo:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>opzioni linea di comando</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Benvenuto</translation>
+    </message>
     <message>
         <source>Tusc Core</source>
         <translation>Tusc Core</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation>Errore</translation>
     </message>
     </context>
 <context>
     <name>MasternodeList</name>
     <message>
+        <source>My Masternodes</source>
+        <translation>I miei Masternodes</translation>
+    </message>
+    <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktívny</translation>
+        <translation>Attivo </translation>
     </message>
     </context>
 <context>
@@ -942,7 +951,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adresa:</translation>
+        <translation>Indirizzo:</translation>
     </message>
     </context>
 <context>
@@ -956,6 +965,10 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>OverviewPage</name>
+    <message>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
     </context>
 <context>
     <name>PaymentServer</name>
@@ -967,7 +980,7 @@ MultiSend: %1</translation>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation>Ammontare</translation>
     </message>
     </context>
 <context>
@@ -977,102 +990,102 @@ MultiSend: %1</translation>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>Informácie</translation>
+        <translation>&amp;Informazioni</translation>
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Copy label</source>
-        <translation>Skopírovať štítok</translation>
+        <translation>Copia etichetta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
+        <translation>Copia ammontare</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation>Ammontare</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Štítok</translation>
+        <translation>Etichetta</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Štítok</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation>Ammontare</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(žiaden štítok)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Množstvo:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytov:</translation>
+        <translation>Quantità:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Suma:</translation>
+        <translation>Totale:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Priorita:</translation>
+        <translation>Priorità:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Poplatok:</translation>
+        <translation>Tassa:</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Po poplatku:</translation>
+        <source>no</source>
+        <translation>no</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Zmena:</translation>
+        <translation>Differenza:</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Všetko zmazať</translation>
+        <translation>Cancella &amp;All</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
+        <translation>Copia ammontare</translation>
+    </message>
+    <message>
+        <source>anonymous funds</source>
+        <translation>Fondi anonimi</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(žiaden štítok)</translation>
+        <translation>(nessuna etichetta)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
+        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1080,7 +1093,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
+        <translation>Incolla l'indirizzo dagli appunti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1094,11 +1107,11 @@ MultiSend: %1</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The Tusc address to sign the message with</source>
-        <translation>Adresa Tusc, ktorou chcete správu podpísať</translation>
+        <translation>L'indirizzo Tusc per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
+        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1106,7 +1119,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
+        <translation>Incolla l'indirizzo dagli appunti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -1114,51 +1127,51 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Skopírujte aktuálny podpis do schránky</translation>
+        <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Tusc address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Tusc adresy</translation>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo Tusc</translation>
     </message>
     <message>
         <source>The Tusc address the message was signed with</source>
-        <translation>Tusc adresa, ktorou bola správa podpísaná</translation>
+        <translation>L'indirizzo Tusc con cui è stato firmato il messaggio</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tusc address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Tusc adresou</translation>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo Tusc specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Zmazať všetky polia správy</translation>
+        <translation>Reimposta tutti i campi del messaggio segno</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Všetko zmazať</translation>
+        <translation>Cancella &amp;All</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Zmazať všetky polia verifikácie správy</translation>
+        <translation>Ripristinare tutti i campi del messaggio verificati</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Zadaná adresa je neplatná.</translation>
+        <translation>L'indirizzo inserito non è valido.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Skontrolujte adresu a skúste to znova.</translation>
+        <translation>Per favore controlla l'indirizzo e riprova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Zadaná adresa neodkazuje na kľúč.</translation>
+        <translation>L'indirizzo inserito non corrisponde a una chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odomknutie peňaženky bolo zrušené.</translation>
+        <translation>Lo sblocco portafoglio è stato annullato.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Súkromný kľúč pre zadanú adresu nie je k dispozícii.</translation>
+        <translation>La chiave privata per l'indirizzo inserito non è disponibile.</translation>
     </message>
     </context>
 <context>
@@ -1175,11 +1188,11 @@ MultiSend: %1</translation>
     <name>TransactionDesc</name>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation>Ammontare</translation>
     </message>
     </context>
 <context>
@@ -1189,54 +1202,54 @@ MultiSend: %1</translation>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Indirizzo</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Copy address</source>
-        <translation>Skopírovať adresu</translation>
+        <translation>Copia indirizzo</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Skopírovať štítok</translation>
+        <translation>Copia etichetta</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
+        <translation>Copia ammontare</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Skopírovať ID transakcie</translation>
+        <translation>Copia ID transazione</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Súbor oddelený čiarkami (*.csv)</translation>
+        <translation>File separato da virgola (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrdené</translation>
+        <translation>Confermata</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Štítok</translation>
+        <translation>Etichetta</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export zlyhal</translation>
+        <translation>Esportazione fallita</translation>
     </message>
     </context>
 <context>
@@ -1252,26 +1265,26 @@ MultiSend: %1</translation>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>Exportovať</translation>
+        <translation>&amp;Esporta</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať údaje na aktuálnej karte do súboru</translation>
+        <translation>Esporta i dati della scheda corrente in un file</translation>
     </message>
     </context>
 <context>
     <name>tusc-core</name>
     <message>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informácia</translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varovanie</translation>
+        <translation>Avvertimento</translation>
     </message>
     </context>
 </TS>
