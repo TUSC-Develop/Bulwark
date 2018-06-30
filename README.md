@@ -32,7 +32,7 @@ That Universal Saving Coin offers both SwiftTX and Obfuscation to enable speedy 
 
 | Subsidy  | Block         | PoW  | MN  | Circulation |
 |----------|---------------|------|-----|-------------|
-| 252000   | 1             | 100% | NA  | 250000      |
+| 250000   | 1             | 100% | NA  | 250000      |
 | ~25(avg) | 2-300         | 100% | NA  | 257547      |
 
 ## PoS Block Rewards
