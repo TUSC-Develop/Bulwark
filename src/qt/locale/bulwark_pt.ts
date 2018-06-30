@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your TUSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços TUSC para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your Bulwark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Bulwark para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your TUSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços TUSC para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Bulwark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Bulwark para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>TUSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
-        <translation>TUSC encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas TUSCs contra roubo por malware infectando seu computador.</translation>
+        <source>Bulwark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BWKs from being stolen by malware infecting your computer.</source>
+        <translation>Bulwark encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas BWKs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA TUSC&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BWK&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA BWK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a TUSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço TUSC que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a Bulwark Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço Bulwark que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The TUSC address to sign the message with</source>
-        <translation>Um endereço TUSC para assinar a mensagem</translation>
+        <source>The Bulwark address to sign the message with</source>
+        <translation>Um endereço Bulwark para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TUSC address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço TUSC.</translation>
+        <source>Sign the message to prove you own this Bulwark address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Bulwark.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +299,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The TUSC address the message was signed with</source>
-        <translation>O endereço TUSC que foi assinado com</translation>
+        <source>The Bulwark address the message was signed with</source>
+        <translation>O endereço Bulwark que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -633,8 +633,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The TUSC address to sign the message with</source>
-        <translation>Um endereço TUSC para assinar a mensagem</translation>
+        <source>The Bulwark address to sign the message with</source>
+        <translation>Um endereço Bulwark para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -665,12 +665,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this TUSC address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço TUSC.</translation>
+        <source>Sign the message to prove you own this Bulwark address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço Bulwark.</translation>
     </message>
     <message>
-        <source>The TUSC address the message was signed with</source>
-        <translation>O endereço TUSC que foi assinado com</translation>
+        <source>The Bulwark address the message was signed with</source>
+        <translation>O endereço Bulwark que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -868,14 +868,14 @@
     </message>
     </context>
 <context>
-    <name>tusc-core</name>
+    <name>bulwark-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all TUSC specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da TUSC (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all Bulwark specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da Bulwark (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -1242,8 +1242,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart TUSC Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o TUSC Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart Bulwark Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o Bulwark Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

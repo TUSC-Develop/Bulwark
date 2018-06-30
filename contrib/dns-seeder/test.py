@@ -2,16 +2,16 @@ import socket
 
 seeders = [
     'bwkseed.mempool.pw',
-    'bwkseed1.tusccrypto.com',
-    'bwkseed2.tusccrypto.com',
-    'bwkseed3.tusccrypto.com',
-    'bwkseed4.tusccrypto.com',
-    'bwkseed5.tusccrypto.com',
-    'bwkseed1.tusccrypto.site',
-    'bwkseed2.tusccrypto.site',
-    'bwkseed3.tusccrypto.site',
-    'bwkseed4.tusccrypto.site',
-    'bwkseed5.tusccrypto.site'
+    'bwkseed1.bulwarkcrypto.com',
+    'bwkseed2.bulwarkcrypto.com',
+    'bwkseed3.bulwarkcrypto.com',
+    'bwkseed4.bulwarkcrypto.com',
+    'bwkseed5.bulwarkcrypto.com',
+    'bwkseed1.bulwarkcrypto.site',
+    'bwkseed2.bulwarkcrypto.site',
+    'bwkseed3.bulwarkcrypto.site',
+    'bwkseed4.bulwarkcrypto.site',
+    'bwkseed5.bulwarkcrypto.site'
 ]
 
 for seeder in seeders:

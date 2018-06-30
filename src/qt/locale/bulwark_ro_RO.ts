@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>tusc-core</name>
+    <name>bulwark-core</name>
     </context>
 </TS>

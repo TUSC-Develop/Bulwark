@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both tuscd and tusc-qt, to make it harder for attackers to
+ * for both bulwarkd and bulwark-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("TUSC Core");
+const std::string CLIENT_NAME("Bulwark Core");
 
 /**
  * Client version number

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "TUSC"
-            VALUE "FileDescription",    "tuscd (OSS daemon/client for TUSC)"
+            VALUE "CompanyName",        "Bulwark"
+            VALUE "FileDescription",    "Bulwark-cli (OSS RPC client for Bulwark)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "tuscd"
+            VALUE "InternalName",       "bulwark-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "tuscd.exe"
-            VALUE "ProductName",        "tuscd"
+            VALUE "OriginalFilename",   "bulwark-cli.exe"
+            VALUE "ProductName",        "Bulwark-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
