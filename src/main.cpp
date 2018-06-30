@@ -1656,7 +1656,7 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight <= 300 && nHeight >= Params().RAMP_TO_BLOCK()) {
 	    nSubsidy = 25 * COIN;
     } else if (nHeight <= 200000 && nHeight >= 301) { // Keep reward schedule.
-        nSubsidy = 50.00 * COIN;
+        nSubsidy = 42.00 * COIN;
     } else if (nHeight <= 259199 && nHeight > 200001) {
         nSubsidy = 37.5 * COIN;
     } else if (nHeight <= 345600 && nHeight >= 259201) {
