@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Bulwarkadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your TUSC addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw TUSCadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Bulwarkadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your TUSC addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw TUSCadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Bulwark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BWKs from being stolen by malware infecting your computer.</source>
-        <translation>Bulwark zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw BWKs stelen.</translation>
+        <source>TUSC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
+        <translation>TUSC zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw TUSCs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BWK&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BWK VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW TUSC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Bulwark Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een Bulwark adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a TUSC Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een TUSC adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Het Bulwark adres om het bericht met te ondertekenen</translation>
+        <source>The TUSC address to sign the message with</source>
+        <translation>Het TUSC adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Bulwark adres bezit</translation>
+        <source>Sign the message to prove you own this TUSC address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het TUSC adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Het Bulwark adres waarmee het bericht was ondertekend</translation>
+        <source>The TUSC address the message was signed with</source>
+        <translation>Het TUSC adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Bulwark adres</translation>
+        <source>Verify the message to ensure it was signed with the specified TUSC address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde TUSC adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kern</translation>
+        <source>TUSC Core</source>
+        <translation>TUSC Kern</translation>
     </message>
     <message>
-        <source>Send coins to a Bulwark address</source>
-        <translation>Verstuur munten naar een Bulwark adres</translation>
+        <source>Send coins to a TUSC address</source>
+        <translation>Verstuur munten naar een TUSC adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bulwark: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Bulwark: URI's)</translation>
+        <source>Request payments (generates QR codes and tusc: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en TUSC: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Bulwark Core</source>
-        <translation>&amp;Over Bulwark Kern</translation>
+        <source>&amp;About TUSC Core</source>
+        <translation>&amp;Over TUSC Kern</translation>
     </message>
     <message>
-        <source>Show information about Bulwark Core</source>
-        <translation>Toon informatie over Bulwark Kern</translation>
+        <source>Show information about TUSC Core</source>
+        <translation>Toon informatie over TUSC Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bulwark</source>
-        <translation>Wijzig Bulwark configuratie opties</translation>
+        <source>Modify configuration options for TUSC</source>
+        <translation>Wijzig TUSC configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your Bulwark addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Bulwark adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your TUSC addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw TUSC adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bulwark addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Bulwark adressen</translation>
+        <source>Verify messages to ensure they were signed with specified TUSC addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde TUSC adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a Bulwark: URI or payment request</source>
-        <translation>Open een Bulwark: URI of betaalverzoek</translation>
+        <source>Open a TUSC: URI or payment request</source>
+        <translation>Open een TUSC: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Bulwark Core client</source>
-        <translation>Bulwark Core client</translation>
+        <source>TUSC Core client</source>
+        <translation>TUSC Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bulwark network</source>
-        <translation><numerusform>%n actieve connectie(s) naar Bulwark netwerk</numerusform><numerusform>%n actieve connectie(s) naar Bulwark netwerk</numerusform></translation>
+        <source>%n active connection(s) to TUSC network</source>
+        <translation><numerusform>%n actieve connectie(s) naar TUSC netwerk</numerusform><numerusform>%n actieve connectie(s) naar TUSC netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bulwark.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (bulwark.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (tusc.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (tusc.conf).</translation>
     </message>
 </context>
 <context>
@@ -1010,8 +1010,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bulwark address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig Bulwark adres.</translation>
+        <source>The entered address "%1" is not a valid TUSC address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig TUSC adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1040,16 +1040,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kern</translation>
+        <source>TUSC Core</source>
+        <translation>TUSC Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bulwark Core</source>
-        <translation>Over Bulwark Core</translation>
+        <source>About TUSC Core</source>
+        <translation>Over TUSC Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1079,16 +1079,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Bulwark Core.</source>
-        <translation>Welkom bij Bulwark Core</translation>
+        <source>Welcome to TUSC Core.</source>
+        <translation>Welkom bij TUSC Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kern</translation>
+        <source>TUSC Core</source>
+        <translation>TUSC Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1300,24 +1300,24 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Bulwark after logging in to the system.</source>
-        <translation>Bulwark automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start TUSC after logging in to the system.</source>
+        <translation>TUSC automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Bulwark on system login</source>
-        <translation>&amp;Bulwark starten bij systeemlogin</translation>
+        <source>&amp;Start TUSC on system login</source>
+        <translation>&amp;TUSC starten bij systeemlogin</translation>
     </message>
     <message>
-        <source>Amount of Bulwark to keep anonymized</source>
-        <translation>Hoeveelheid Bulwark anoniem te houden</translation>
+        <source>Amount of TUSC to keep anonymized</source>
+        <translation>Hoeveelheid TUSC anoniem te houden</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bulwark.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Bulwark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting TUSC.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van TUSC.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1427,8 +1427,8 @@ MultiSend: %1</translation>
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 BWK / 0 Rounds</source>
-        <translation>0 BWK / 0 Rondes</translation>
+        <source>0 TUSC / 0 Rounds</source>
+        <translation>0 TUSC / 0 Rondes</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1512,8 +1512,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a Bulwark address (e.g. %1)</source>
-        <translation>Voer een Bulwark adres in (b.v. %1)</translation>
+        <source>Enter a TUSC address (e.g. %1)</source>
+        <translation>Voer een TUSC adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1702,8 +1702,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Bulwark RPC console.</source>
-        <translation>Welkom bij de Bulwark RPC console.</translation>
+        <source>Welcome to the TUSC RPC console.</source>
+        <translation>Welkom bij de TUSC RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1894,8 +1894,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 BWK</source>
-        <translation>0 BWK</translation>
+        <source>0 TUSC</source>
+        <translation>0 TUSC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2024,8 +2024,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bulwark Core is shutting down...</source>
-        <translation>Bulwark Core is aan het afsluiten...</translation>
+        <source>TUSC Core is shutting down...</source>
+        <translation>TUSC Core is aan het afsluiten...</translation>
     </message>
     </context>
 <context>
@@ -2035,8 +2035,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Het Bulwark adres om het bericht met te ondertekenen</translation>
+        <source>The TUSC address to sign the message with</source>
+        <translation>Het TUSC adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2067,16 +2067,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Bulwark adres bezit</translation>
+        <source>Sign the message to prove you own this TUSC address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het TUSC adres bezit</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Het Bulwark adres waarmee het bericht was ondertekend</translation>
+        <source>The TUSC address the message was signed with</source>
+        <translation>Het TUSC adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Bulwark adres</translation>
+        <source>Verify the message to ensure it was signed with the specified TUSC address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde TUSC adres</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2134,8 +2134,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kern</translation>
+        <source>TUSC Core</source>
+        <translation>TUSC Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2150,8 +2150,8 @@ MultiSend: %1</translation>
         <translation>De Dash Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The Bulwark Core developers</source>
-        <translation>De Bulwark Core ontwikkelaars</translation>
+        <source>The TUSC Core developers</source>
+        <translation>De TUSC Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2482,7 +2482,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>bulwark-core</name>
+    <name>tusc-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2504,12 +2504,12 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Bulwark Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Bulwark Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The TUSC Core Developers</source>
+        <translation>Copyright (C) 2015-%i The TUSC Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Bulwark Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Bulwark Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The TUSC Core Developers</source>
+        <translation>Copyright (C) 2017-%i The TUSC Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Error</source>

@@ -70,8 +70,8 @@ script:
 - test -n "$USE_SHELL" && eval '"$USE_SHELL" -c "./autogen.sh"' || ./autogen.sh
 - "./configure --cache-file=config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG || (
   cat config.log && false)"
-- make distdir PACKAGE=bulwark VERSION=$HOST
-- cd bulwark-$HOST
+- make distdir PACKAGE=tusc VERSION=$HOST
+- cd tusc-$HOST
 - "./configure --cache-file=../config.cache $BITCOIN_CONFIG_ALL $BITCOIN_CONFIG ||
   ( cat config.log && false)"
 - make $MAKEJOBS $GOAL || ( echo "Build failure. Verbose build follows." && make $GOAL
@@ -79,7 +79,7 @@ script:
 - export LD_LIBRARY_PATH=$TRAVIS_BUILD_DIR/depends/$HOST/lib
 - if [ "$RUN_TESTS" = "true" -a "$WINE" != "true" ]; then make $MAKEJOBS check VERBOSE=1;
   fi
-- if [ "$RUN_TESTS" = "true" -a "$WINE" = "true" ]; then wine  src/test/test_bulwark.exe;
+- if [ "$RUN_TESTS" = "true" -a "$WINE" = "true" ]; then wine  src/test/test_tusc.exe;
   fi
 - if [ "$RUN_TESTS" = "true" ]; then qa/pull-tester/rpc-tests.py --coverage; fi
 after_script:

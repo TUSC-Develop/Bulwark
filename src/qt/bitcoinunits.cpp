@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bulwark developers
+// Copyright (c) 2017-2018 The TUSC developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BWK);
-    unitlist.append(mBWK);
-    unitlist.append(uBWK);
+    unitlist.append(TUSC);
+    unitlist.append(mTUSC);
+    unitlist.append(uTUSC);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case BWK:
-    case mBWK:
-    case uBWK:
+    case TUSC:
+    case mTUSC:
+    case uTUSC:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case BWK:
-        return QString("bulwark");
-    case mBWK:
-        return QString("mbulwark");
-    case uBWK:
-        return QString::fromUtf8("ubulwark");
+    case TUSC:
+        return QString("tusc");
+    case mTUSC:
+        return QString("mtusc");
+    case uTUSC:
+        return QString::fromUtf8("utusc");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BWK:
-            return QString("BWK");
-        case mBWK:
-            return QString("mBWK");
-        case uBWK:
-            return QString::fromUtf8("μBWK");
+        case TUSC:
+            return QString("TUSC");
+        case mTUSC:
+            return QString("mTUSC");
+        case uTUSC:
+            return QString::fromUtf8("μTUSC");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BWK:
-            return QString("tBWK");
-        case mBWK:
-            return QString("mtBWK");
-        case uBWK:
-            return QString::fromUtf8("μtBWK");
+        case TUSC:
+            return QString("tTUSC");
+        case mTUSC:
+            return QString("mtTUSC");
+        case uTUSC:
+            return QString::fromUtf8("μtTUSC");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BWK:
-            return QString("BWK");
-        case mBWK:
-            return QString("Milli-BWK (1 / 1" THIN_SP_UTF8 "000)");
-        case uBWK:
-            return QString("Micro-BWK (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TUSC:
+            return QString("TUSC");
+        case mTUSC:
+            return QString("Milli-TUSC (1 / 1" THIN_SP_UTF8 "000)");
+        case uTUSC:
+            return QString("Micro-TUSC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BWK:
-            return QString("TestBWKs");
-        case mBWK:
-            return QString("Milli-TestBWK (1 / 1" THIN_SP_UTF8 "000)");
-        case uBWK:
-            return QString("Micro-TestBWK (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case TUSC:
+            return QString("TestTUSCs");
+        case mTUSC:
+            return QString("Milli-TestTUSC (1 / 1" THIN_SP_UTF8 "000)");
+        case uTUSC:
+            return QString("Micro-TestTUSC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case BWK:
+    case TUSC:
         return 100000000;
-    case mBWK:
+    case mTUSC:
         return 100000;
-    case uBWK:
+    case uTUSC:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case BWK:
+    case TUSC:
         return 8;
-    case mBWK:
+    case mTUSC:
         return 5;
-    case uBWK:
+    case uTUSC:
         return 2;
     default:
         return 0;

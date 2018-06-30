@@ -1,25 +1,25 @@
-# /etc/conf.d/bulwarkd: config file for /etc/init.d/bulwarkd
+# /etc/conf.d/tuscd: config file for /etc/init.d/tuscd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/bulwark/bulwark.conf"
+#BITCOIND_CONFIGFILE="/etc/tusc/tusc.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/bulwarkd"
+#BITCOIND_PIDDIR="/var/run/tuscd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bulwarkd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tuscd.pid"
 
-# Where to write bulwarkd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/bulwarkd"
+# Where to write tuscd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tuscd"
 
-# User and group to own bulwarkd process
-#BITCOIND_USER="bulwark"
-#BITCOIND_GROUP="bulwark"
+# User and group to own tuscd process
+#BITCOIND_USER="tusc"
+#BITCOIND_GROUP="tusc"
 
-# Path to bulwarkd executable
-#BITCOIND_BIN="/usr/bin/bulwarkd"
+# Path to tuscd executable
+#BITCOIND_BIN="/usr/bin/tuscd"
 
-# Nice value to run bulwarkd under
+# Nice value to run tuscd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

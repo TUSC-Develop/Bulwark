@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build bulwarkd (headless client) for OSX.
+This guide will show you how to build tuscd (headless client) for OSX.
 
 Notes
 -----
@@ -40,14 +40,14 @@ Instructions: Homebrew
 
         brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf qt5
 
-### Building `bulwarkd`
+### Building `tuscd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/bulwark-crypto/Bulwark
-        cd Bulwark
+        git clone https://github.com/tusc-crypto/TUSC
+        cd TUSC
 
-2.  Build bulwarkd:
+2.  Build tuscd:
 
         ./autogen.sh
         ./configure --with-gui=qt5
@@ -57,7 +57,7 @@ Instructions: Homebrew
 
         make check
 
-4.  (Optional) You can also install bulwarkd to your path:
+4.  (Optional) You can also install tuscd to your path:
 
         make install
 
@@ -69,7 +69,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "bulwark-qt" as project name, enter src/qt as location
+4. Enter "tusc-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -79,11 +79,11 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `bulwarkd` for your own use.
+You can ignore this section if you are building `tuscd` for your own use.
 
-bulwarkd/bulwark-cli binaries are not included in the bulwark-Qt.app bundle.
+tuscd/tusc-cli binaries are not included in the tusc-Qt.app bundle.
 
-If you are building `bulwarkd` or `bulwark-qt` for others, your build machine should be set up
+If you are building `tuscd` or `tusc-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -92,30 +92,30 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the Bulwark-Qt.app
+Once dependencies are compiled, see release-process.md for how the TUSC-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
 -------
 
-It's now available at `./bulwarkd`, provided that you are still in the `src`
+It's now available at `./tuscd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./bulwarkd` to get the filename where it should be put, or just try these
+Run `./tuscd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=bulwarkrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bulwark/bulwark.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/Bulwark/bulwark.conf"
+    echo -e "rpcuser=tuscrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/TUSC/tusc.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/TUSC/tusc.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/Bulwark/debug.log
+    tail -f $HOME/Library/Application\ Support/TUSC/debug.log
 
 Other commands:
 -------
 
-    ./bulwarkd -daemon # to start the bulwark daemon.
-    ./bulwark-cli --help  # for a list of command-line options.
-    ./bulwark-cli help    # When the daemon is running, to get a list of RPC commands
+    ./tuscd -daemon # to start the tusc daemon.
+    ./tusc-cli --help  # for a list of command-line options.
+    ./tusc-cli help    # When the daemon is running, to get a list of RPC commands

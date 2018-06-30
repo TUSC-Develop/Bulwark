@@ -138,7 +138,7 @@ Your settings wont be saved unless your hit save.</string>
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../bulwark.qrc">
+         <iconset resource="../tusc.qrc">
           <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
         </property>
        </widget>
@@ -149,7 +149,7 @@ Your settings wont be saved unless your hit save.</string>
          <string/>
         </property>
         <property name="icon">
-         <iconset resource="../bulwark.qrc">
+         <iconset resource="../tusc.qrc">
           <normaloff>:/icons/filesave</normaloff>:/icons/filesave</iconset>
         </property>
        </widget>
@@ -160,7 +160,7 @@ Your settings wont be saved unless your hit save.</string>
   </widget>
  </widget>
  <resources>
-  <include location="../bulwark.qrc"/>
+  <include location="../tusc.qrc"/>
  </resources>
  <connections/>
 </ui>
