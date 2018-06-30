@@ -1,6 +1,6 @@
 [Protocol]
-exec=tusc-qt '%u'
-protocol=tusc
+exec=bulwark-qt '%u'
+protocol=bulwark
 input=none
 output=none
 helper=true

@@ -1,38 +1,38 @@
-TUSC Core
+Bulwark Core
 =====================
 
 Setup
 ---------------------
-[TUSC Core](https://www.tusccrypto.com/) is the original TUSC client and it builds the backbone of the network. However, it downloads and stores the entire history of TUSC transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Bulwark Core](https://www.bulwarkcrypto.com/) is the original Bulwark client and it builds the backbone of the network. However, it downloads and stores the entire history of Bulwark transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run TUSC on your native platform.
+The following are some helpful notes on how to run Bulwark on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/tusc-qt (GUI, 32-bit) or bin/32/tuscd (headless, 32-bit)
-- bin/64/tusc-qt (GUI, 64-bit) or bin/64/tuscd (headless, 64-bit)
+- bin/32/bulwark-qt (GUI, 32-bit) or bin/32/bulwarkd (headless, 32-bit)
+- bin/64/bulwark-qt (GUI, 64-bit) or bin/64/bulwarkd (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run tusc-qt.exe.
+Unpack the files into a directory, and then run bulwark-qt.exe.
 
 ### OSX
 
-Drag TUSC-Qt to your applications folder, and then run TUSC-Qt.
+Drag Bulwark-Qt to your applications folder, and then run Bulwark-Qt.
 
 ### Need Help?
 
-* See the documentation at the [TUSC KB](https://kb.tusccrypto.com)
+* See the documentation at the [Bulwark KB](https://kb.bulwarkcrypto.com)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or on the [TUSC Discord](https://discord.gg/a7vhegP).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or on the [Bulwark Discord](https://discord.gg/a7vhegP).
 
 Building
 ---------------------
-The following are developer notes on how to build TUSC on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Bulwark on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -40,7 +40,7 @@ The following are developer notes on how to build TUSC on your native platform. 
 
 Development
 ---------------------
-The TUSC repo's [root README](https://github.com/tusc-crypto/TUSC/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Bulwark repo's [root README](https://github.com/bulwark-crypto/Bulwark/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -54,7 +54,7 @@ The TUSC repo's [root README](https://github.com/tusc-crypto/TUSC/blob/master/RE
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or the [TUSC Subreddit](http://reddit.com/r/tusccoin).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=2499481.0) or the [Bulwark Subreddit](http://reddit.com/r/bulwarkcoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

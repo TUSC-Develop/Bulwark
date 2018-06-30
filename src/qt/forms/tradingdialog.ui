@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TUSCSupply">
+    <widget class="QLabel" name="BWKSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="TUSCDemand">
+    <widget class="QLabel" name="BWKDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QtMaterialFlatButton" name="BuyTUSC" native="true">
+    <widget class="QtMaterialFlatButton" name="BuyBWK" native="true">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text" stdset="0">
-      <string>Buy TUSC</string>
+      <string>Buy BWK</string>
      </property>
      <property name="icon" stdset="0">
-      <iconset resource="../tusc.qrc">
+      <iconset resource="../bulwark.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>TUSC</string>
+      <string>BWK</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>TUSC</string>
+      <string>BWK</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputTUSC">
+    <widget class="QLineEdit" name="UnitsInputBWK">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QtMaterialFlatButton" name="SellTUSCBTN" native="true">
+    <widget class="QtMaterialFlatButton" name="SellBWKBTN" native="true">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text" stdset="0">
-      <string>Sell TUSC</string>
+      <string>Sell BWK</string>
      </property>
      <property name="icon" stdset="0">
-      <iconset resource="../tusc.qrc">
+      <iconset resource="../bulwark.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>TUSC Available:</string>
+         <string>BWK Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="TUSCAvailableLabel">
+       <widget class="QLabel" name="BWKAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelTUSC">
+       <widget class="QLabel" name="labelBWK">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>TUSC</string>
+         <string>BWK</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TUSCBalanceLabel">
+    <widget class="QLabel" name="BWKBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>TUSC Balance:</string>
+      <string>BWK Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TUSCAvailableLabel_2">
+    <widget class="QLabel" name="BWKAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>TUSC Available:</string>
+      <string>BWK Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>TUSC Pending:</string>
+      <string>BWK Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="TUSCPendingLabel">
+    <widget class="QLabel" name="BWKPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex TUSC Deposit Address:</string>
+      <string>Bittrex BWK Deposit Address:</string>
      </property>
     </widget>
     <widget class="QtMaterialFlatButton" name="GenDepositBTN" native="true">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text" stdset="0">
-      <string>Generate TUSC Deposit Address</string>
+      <string>Generate Bulwark Deposit Address</string>
      </property>
      <property name="icon" stdset="0">
-      <iconset resource="../tusc.qrc">
+      <iconset resource="../bulwark.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QtMaterialFlatButton" name="btnConvertTUSC" native="true">
+     <widget class="QtMaterialFlatButton" name="btnConvertBulwark" native="true">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../tusc.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../bulwark.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon" stdset="0">
-      <iconset resource="../tusc.qrc">
+      <iconset resource="../bulwark.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3415,7 +3415,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../tusc.qrc"/>
+  <include location="../bulwark.qrc"/>
  </resources>
  <connections/>
 </ui>

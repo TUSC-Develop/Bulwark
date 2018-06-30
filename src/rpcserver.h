@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * TUSC RPC command dispatcher.
+ * Bulwark RPC command dispatcher.
  */
 class CRPCTable
 {

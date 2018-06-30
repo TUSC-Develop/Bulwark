@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: tuscd.service
-Upstart: tuscd.conf
-OpenRC:  tuscd.openrc
-         tuscd.openrcconf
-CentOS:  tuscd.init
+SystemD: bulwarkd.service
+Upstart: bulwarkd.conf
+OpenRC:  bulwarkd.openrc
+         bulwarkd.openrcconf
+CentOS:  bulwarkd.init
 
 have been made available to assist packagers in creating node packages here.
 

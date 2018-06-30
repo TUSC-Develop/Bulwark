@@ -1,19 +1,19 @@
 [Unit]
-Description=TUSC's distributed currency daemon
+Description=Bulwark's distributed currency daemon
 After=network.target
 
 [Service]
-User=tusc
-Group=tusc
+User=bulwark
+Group=bulwark
 
 Type=forking
-PIDFile=/var/lib/tuscd/tuscd.pid
+PIDFile=/var/lib/bulwarkd/bulwarkd.pid
 
-ExecStart=/usr/bin/tuscd -daemon -pid=/var/lib/tuscd/tuscd.pid \
-          -conf=/etc/tusc/tusc.conf -datadir=/var/lib/tuscd
+ExecStart=/usr/bin/bulwarkd -daemon -pid=/var/lib/bulwarkd/bulwarkd.pid \
+          -conf=/etc/bulwark/bulwark.conf -datadir=/var/lib/bulwarkd
 
-ExecStop=-/usr/bin/tusc-cli -conf=/etc/tusc/tusc.conf \
-         -datadir=/var/lib/tuscd stop
+ExecStop=-/usr/bin/bulwark-cli -conf=/etc/bulwark/bulwark.conf \
+         -datadir=/var/lib/bulwarkd stop
 
 Restart=always
 PrivateTmp=true

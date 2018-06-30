@@ -1,6 +1,6 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The TUSC developers
+// Copyright (c) 2017-2018 The Bulwark developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -363,7 +363,7 @@ public:
 
     //check to see if we should vote on this
     void AutoCheck();
-    //total tusc paid out by this budget
+    //total bulwark paid out by this budget
     CAmount GetTotalPayout();
     //vote on this finalized budget as a masternode
     void SubmitVote();
