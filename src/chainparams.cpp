@@ -26,29 +26,7 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
-void MineGenesis(CBlock genesis){
-    // This will figure out a valid hash and Nonce if you're creating a different genesis block:
-    uint256 newhash = genesis.GetHash();
-    uint256 besthash;
-    int64_t nStart = GetTime();
-    uint256 hashTarget = ~uint256(0) >> 20;
-    printf("Target: %s\n", hashTarget.GetHex().c_str());
-    memset(&besthash,0xFF,32);
-    while (newhash > hashTarget) {
-        ++genesis.nNonce;
-        if (genesis.nNonce == 0){
-            printf("NONCE WRAPPED, incrementing time");
-            ++genesis.nTime;
-        }
-        newhash = genesis.GetHash();
-        if(newhash < besthash){
-            besthash=newhash;
-            printf("New best: %s\n", newhash.GetHex().c_str());
-        }
-    }
-    printf("Found Genesis, Nonce: %ld, Hash: %s\n", genesis.nNonce, genesis.GetHash().GetHex().c_str());
-    printf("Gensis Hash Merkle: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-}
+
 /**
  * Main network
  */
@@ -77,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x000002ab8c4f6fbb547a7af65629292396adf1d697bb287c17da9a5fda715816"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -88,7 +66,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x000004d0b9f62ab1d2da65a30387a475625cf4a29eeeec6ea7bbb9457852c56c"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1530378901,
@@ -118,7 +96,7 @@ public:
         pchMessageStart[2] = 0x01;
         pchMessageStart[3] = 0x17;
 	    vAlertPubKey = ParseHex("042dfbb26101a2b4c3966db428edd7a109298cf5427a2a5a1e364197975d13bb81a85a42d9cacd09fc70e79cf09ef589c01169eb62c4d922a7d1792766107b40ae");
-        nDefaultPort = 52543;
+        nDefaultPort = 20235;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Bulwark starting difficulty is 1 / 2^12
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
@@ -149,13 +127,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1530378901;
+        genesis.nTime = 1530378900;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
-        MineGenesis(genesis);
+        genesis.nNonce = 89087;
+
 	    hashGenesisBlock = genesis.GetHash();
-//        assert(hashGenesisBlock == uint256("0x0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574"));
-//	    assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+      assert(hashGenesisBlock == uint256("0x000002ab8c4f6fbb547a7af65629292396adf1d697bb287c17da9a5fda715816"));
+	    assert(genesis.hashMerkleRoot == uint256("0x1646bf7b6624c61968e8f9ac7fab4b9d8125aa8cba1e958a84c00f8586a0e7b9"));
 
         vSeeds.push_back(CDNSSeedData("master.thatcoin.tech", "master.thatcoin.tech"));      // Single node address
         vSeeds.push_back(CDNSSeedData("slave.thatcoin.teach", "slave.thatcoin.tech"));      // Single node address
@@ -226,19 +204,17 @@ public:
         nToCheckBlockUpgradeMajority = 100;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1530378900;
-        genesis.nNonce = 0;
+        genesis.nTime = 1530378901;
+        genesis.nNonce = 335549;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        MineGenesis(genesis);
+
         hashGenesisBlock = genesis.GetHash();
-//        assert(hashGenesisBlock == uint256("0x000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285"));
-//        assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+        assert(hashGenesisBlock == uint256("0x000004d0b9f62ab1d2da65a30387a475625cf4a29eeeec6ea7bbb9457852c56c"));
+        assert(genesis.hashMerkleRoot == uint256("0x1646bf7b6624c61968e8f9ac7fab4b9d8125aa8cba1e958a84c00f8586a0e7b9"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("testnet01.mempool.pw", "testnet01.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet02.mempool.pw", "testnet02.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet03.mempool.pw", "testnet03.mempool.pw"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet bulwark addresses start with 'T'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);  // Testnet bulwark script addresses start with '5' or '6'
@@ -292,7 +268,7 @@ public:
         genesis.nNonce = 12345;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
-//        assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
+//        assert(hashGenesisBlock == uint256("0x"));
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
         fRequireRPCPassword = false;

@@ -69,7 +69,7 @@ NumEntryGuards 8
 ```
 
 The directory can be different of course, but (both) port numbers should be equal to
-your bulwarkd's P2P listen port (52541 by default).
+your bulwarkd's P2P listen port (20231 by default).
 ```
 -externalip=X   You can tell bulwark about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
