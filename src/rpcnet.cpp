@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bulwark developers
+// Copyright (c) 2017-2018 The Tusc developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -94,7 +94,7 @@ Value getpeerinfo(const Array& params, bool fHelp)
             "    \"pingtime\": n,             (numeric) ping time\n"
             "    \"pingwait\": n,             (numeric) ping wait\n"
             "    \"version\": v,              (numeric) The peer version, such as 7001\n"
-            "    \"subver\": \"/Bulwark Core:x.x.x.x/\",  (string) The string version\n"
+            "    \"subver\": \"/Tusc Core:x.x.x.x/\",  (string) The string version\n"
             "    \"inbound\": true|false,     (boolean) Inbound (true) or Outbound (false)\n"
             "    \"startingheight\": n,       (numeric) The starting height (block) of the peer\n"
             "    \"banscore\": n,             (numeric) The ban score\n"
@@ -220,7 +220,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-            "         \"address\" : \"192.168.0.201:20235\",  (string) The bulwark server host and port\n"
+            "         \"address\" : \"192.168.0.201:20235\",  (string) The tusc server host and port\n"
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"
@@ -355,7 +355,7 @@ Value getnetworkinfo(const Array& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"version\": xxxxx,                      (numeric) the server version\n"
-            "  \"subversion\": \"/Bulwark Core:x.x.x.x/\",     (string) the server subversion string\n"
+            "  \"subversion\": \"/Tusc Core:x.x.x.x/\",     (string) the server subversion string\n"
             "  \"protocolversion\": xxxxx,              (numeric) the protocol version\n"
             "  \"localservices\": \"xxxxxxxxxxxxxxxx\", (string) the services we offer to the network\n"
             "  \"timeoffset\": xxxxx,                   (numeric) the time offset\n"
@@ -369,7 +369,7 @@ Value getnetworkinfo(const Array& params, bool fHelp)
             "  }\n"
             "  ,...\n"
             "  ],\n"
-            "  \"relayfee\": x.xxxxxxxx,                (numeric) minimum relay fee for non-free transactions in bulwark/kb\n"
+            "  \"relayfee\": x.xxxxxxxx,                (numeric) minimum relay fee for non-free transactions in tusc/kb\n"
             "  \"localaddresses\": [                    (array) list of local addresses\n"
             "  {\n"
             "    \"address\": \"xxxx\",                 (string) network address\n"

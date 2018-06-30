@@ -41,7 +41,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Bulwark cannot be compiled without assertions."
+#error "Tusc cannot be compiled without assertions."
 #endif
 
 /**
@@ -2312,7 +2312,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("bulwark-scriptch");
+    RenameThread("tusc-scriptch");
     scriptcheckqueue.Thread();
 }
 

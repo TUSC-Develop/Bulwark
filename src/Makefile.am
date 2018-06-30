@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bulwarkd
+  bin_PROGRAMS += tuscd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += bulwark-cli bulwark-tx
+  bin_PROGRAMS += tusc-cli tusc-tx
 endif
 
 .PHONY: FORCE
-# bulwark core #
+# tusc core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrdb.h \
@@ -183,7 +183,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bulwarkd and bulwark-qt
+# server: shared between tuscd and tusc-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrdb.cpp \
@@ -229,7 +229,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between bulwarkd and bulwark-qt, but only linked
+# wallet: shared between tuscd and tusc-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -298,7 +298,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between bulwarkd, and bulwark-qt and non-server tools
+# common: shared between tuscd, and tusc-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -354,7 +354,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between bulwark-cli and bulwark-qt
+# cli: shared between tusc-cli and tusc-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -364,7 +364,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-bulwarkd_LDADD = \
+tuscd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -375,26 +375,26 @@ bulwarkd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-bulwarkd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+tuscd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-bulwarkd_LDADD += libbitcoin_wallet.a
+tuscd_LDADD += libbitcoin_wallet.a
 endif
-bulwarkd_SOURCES = bulwarkd.cpp
+tuscd_SOURCES = tuscd.cpp
 #
 
 if TARGET_WINDOWS
-bulwarkd_SOURCES += bulwarkd-res.rc
+tuscd_SOURCES += tuscd-res.rc
 endif
 
-bulwarkd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-bulwarkd_CPPFLAGS = $(BITCOIN_INCLUDES)
-bulwarkd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tuscd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+tuscd_CPPFLAGS = $(BITCOIN_INCLUDES)
+tuscd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# bulwark-cli binary #
-bulwark_cli_LDADD = \
+# tusc-cli binary #
+tusc_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -402,14 +402,14 @@ bulwark_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-bulwark_cli_SOURCES = \
-  bulwark-cli.cpp
+tusc_cli_SOURCES = \
+  tusc-cli.cpp
 
-bulwark_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+tusc_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# bulwark-tx binary #
-bulwark_tx_LDADD = \
+# tusc-tx binary #
+tusc_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -418,15 +418,15 @@ bulwark_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-bulwark_tx_SOURCES = bulwark-tx.cpp
-bulwark_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+tusc_tx_SOURCES = tusc-tx.cpp
+tusc_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-bulwark_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tusc_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-bulwark_cli_SOURCES += bulwark-cli-res.rc
+tusc_cli_SOURCES += tusc-cli-res.rc
 endif
-bulwark_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tusc_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

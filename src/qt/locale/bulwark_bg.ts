@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Bulwark адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your Tusc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Tusc адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Bulwark адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Tusc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Tusc адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Потвърдете криптирането на портфейла</translation>
     </message>
     <message>
-        <source>Bulwark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BWKs from being stolen by malware infecting your computer.</source>
-        <translation>Bulwark сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия Bulwark от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>Tusc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
+        <translation>Tusc сега ще се затвори, за да довърши процеса на криптиране. Запомнете, че криптирането на вашия портфейл не може напълно да защити вашия Tusc от това, да бъде откраднат от злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да криптирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BWK&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ BWK&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако криптирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ TUSC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 криптиране</translation>
     </message>
     <message>
-        <source>Enter a Bulwark Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Bulwark адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
+        <source>Enter a Tusc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Tusc адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания частен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark адреса, с който да подпишете съобщението</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Bulwark адрес</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Tusc адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -413,8 +413,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark адреса, с който да подпишете съобщението</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -437,8 +437,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Bulwark адрес</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Tusc адрес</translation>
     </message>
     </context>
 <context>
@@ -500,6 +500,6 @@
     </message>
     </context>
 <context>
-    <name>bulwark-core</name>
+    <name>tusc-core</name>
     </context>
 </TS>
