@@ -1315,11 +1315,7 @@
         <string>Send</string>
        </property>
        <property name="icon" stdset="0">
-<<<<<<< HEAD
         <iconset resource="../tusc.qrc">
-=======
-        <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
          <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
        </property>
        <property name="autoDefault" stdset="0">
@@ -1345,11 +1341,7 @@
         <string>Clear All</string>
        </property>
        <property name="icon" stdset="0">
-<<<<<<< HEAD
         <iconset resource="../tusc.qrc">
-=======
-        <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
          <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
        </property>
        <property name="autoDefault" stdset="0">
@@ -1366,11 +1358,7 @@
         <string>Add Recipient</string>
        </property>
        <property name="icon" stdset="0">
-<<<<<<< HEAD
         <iconset resource="../tusc.qrc">
-=======
-        <iconset resource="../bulwark.qrc">
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
          <normaloff>:/icons/add</normaloff>:/icons/add</iconset>
        </property>
        <property name="autoDefault" stdset="0">

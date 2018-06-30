@@ -220,11 +220,7 @@ Value getaddednodeinfo(const Array& params, bool fHelp)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [\n"
             "       {\n"
-<<<<<<< HEAD
             "         \"address\" : \"192.168.0.201:20235\",  (string) The tusc server host and port\n"
-=======
-            "         \"address\" : \"192.168.0.201:20235\",  (string) The bulwark server host and port\n"
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "       ,...\n"

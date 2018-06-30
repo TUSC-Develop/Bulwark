@@ -2249,11 +2249,7 @@ Value multisend(const Array& params, bool fHelp)
             "The MultiSend transaction is sent when the staked coins mature (100 confirmations)\n"
             "****************************************************************\n"
             "TO CREATE OR ADD TO THE MULTISEND VECTOR:\n"
-<<<<<<< HEAD
 			"multisend <Address to send from> <TUSC Address> <percent>\n"
-=======
-			"multisend <Address to send from> <Bulwark Address> <percent>\n"
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
             "This will add a new address to the MultiSend vector\n"
             "Percent is a whole number 1 to 100.\n"
             "****************************************************************\n"
@@ -2274,11 +2270,7 @@ Value multisend(const Array& params, bool fHelp)
     CBitcoinAddress address(strAddress);
 	CBitcoinAddress sendAddress(strSendAddress);
     if (!(address.IsValid() || sendAddress.IsValid()))
-<<<<<<< HEAD
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid TUSC address");
-=======
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid BWK address");
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
     if (boost::lexical_cast<int>(params[2].get_str()) < 0)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, expected valid percentage");
     if (pwalletMain->IsLocked())

@@ -6,11 +6,7 @@ define(_CLIENT_VERSION_REVISION, 0)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
-<<<<<<< HEAD
 AC_INIT([TUSC Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.tusccrypto.com],[tusc])
-=======
-AC_INIT([Bulwark Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[www.bulwarkcrypto.com],[bulwark])
->>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 AC_CONFIG_SRCDIR([src/main.cpp])
 AC_CONFIG_HEADERS([src/config/tusc-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
