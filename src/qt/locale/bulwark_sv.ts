@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Bulwark adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Tusc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Tusc adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Bulwark adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Tusc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Tusc adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Bulwark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BWKs from being stolen by malware infecting your computer.</source>
-        <translation>Bulwark kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BWKs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Tusc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
+        <translation>Tusc kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina TUSCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BWK&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BWK&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA TUSC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Bulwark Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en Bulwark adress som du vill kryptera med BIP 38.
+        <source>Enter a Tusc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Skriv in en Tusc adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark adressen för signera meddelandet med</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Bulwark adress</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Tusc adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Bulwark adressen meddelandet blev signerat med</translation>
+        <source>The Tusc address the message was signed with</source>
+        <translation>Tusc adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Bulwark adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Tusc address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Tusc adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kärna</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Bulwark address</source>
-        <translation>Skicka mynt till en Bulwark adress</translation>
+        <source>Send coins to a Tusc address</source>
+        <translation>Skicka mynt till en Tusc adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bulwark: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och bulwark: URls)</translation>
+        <source>Request payments (generates QR codes and tusc: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och tusc: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Bulwark Core</source>
-        <translation>Om Bulwark Kärnan</translation>
+        <source>&amp;About Tusc Core</source>
+        <translation>Om Tusc Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Bulwark Core</source>
-        <translation>Visa information om Bulwark Kärnan</translation>
+        <source>Show information about Tusc Core</source>
+        <translation>Visa information om Tusc Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bulwark</source>
-        <translation>Ändra konfigurationsval för Bulwark</translation>
+        <source>Modify configuration options for Tusc</source>
+        <translation>Ändra konfigurationsval för Tusc</translation>
     </message>
     <message>
-        <source>Sign messages with your Bulwark addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Bulwark adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Tusc addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Tusc adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bulwark addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Bulwark adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Tusc addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Tusc adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Bulwark Core client</source>
-        <translation>Bulwark kärn klient</translation>
+        <source>Tusc Core client</source>
+        <translation>Tusc kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kärna</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kärna</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark adressen för signera meddelandet med</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Bulwark adress</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Tusc adress</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Bulwark adressen meddelandet blev signerat med</translation>
+        <source>The Tusc address the message was signed with</source>
+        <translation>Tusc adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Bulwark adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Tusc address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Tusc adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Kärna</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>bulwark-core</name>
+    <name>tusc-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

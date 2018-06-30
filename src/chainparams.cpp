@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bulwark developers
+// Copyright (c) 2017-2018 The Tusc developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -97,12 +97,12 @@ public:
         pchMessageStart[3] = 0x17;
 	    vAlertPubKey = ParseHex("042dfbb26101a2b4c3966db428edd7a109298cf5427a2a5a1e364197975d13bb81a85a42d9cacd09fc70e79cf09ef589c01169eb62c4d922a7d1792766107b40ae");
         nDefaultPort = 20235;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Bulwark starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Tusc starting difficulty is 1 / 2^12
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 90; // Bulwark: 1.5 minutes
-        nTargetSpacingSlowLaunch = 5 * 90;  // Bulwark: 7.5 minutes (Slow launch - Block 300)
-	    nTargetSpacing = 1 * 90; // Bulwark: 1.5min after block 300
+        nTargetTimespan = 1 * 90; // Tusc: 1.5 minutes
+        nTargetSpacingSlowLaunch = 5 * 90;  // Tusc: 7.5 minutes (Slow launch - Block 300)
+	    nTargetSpacing = 1 * 90; // Tusc: 1.5min after block 300
         nLastPOWBlock = 182700;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
@@ -216,14 +216,14 @@ public:
         vSeeds.clear();
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet bulwark addresses start with 'T'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);  // Testnet bulwark script addresses start with '5' or '6'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet tusc addresses start with 'T'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);  // Testnet tusc script addresses start with '5' or '6'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet bulwark BIP32 pubkeys start with 'DRKV'
+        // Testnet tusc BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet bulwark BIP32 prvkeys start with 'DRKP'
+        // Testnet tusc BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet bulwark BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet tusc BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;
@@ -260,8 +260,8 @@ public:
         pchMessageStart[2] = 0x7e;
         pchMessageStart[3] = 0xac;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // Bulwark: 1 day
-        nTargetSpacing = 1 * 60;        // Bulwark: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Tusc: 1 day
+        nTargetSpacing = 1 * 60;        // Tusc: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Bulwark developers
+// Copyright (c) 2017-2018 The Tusc developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/bulwark-config.h"
+#include "config/tusc-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::BWK);
+        settings.setValue("nDisplayUnit", BitcoinUnits::TUSC);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeBulwarkAmount"))
-        settings.setValue("nAnonymizeBulwarkAmount", 1000);
+    if (!settings.contains("nAnonymizeTuscAmount"))
+        settings.setValue("nAnonymizeTuscAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeBulwarkAmount = settings.value("nAnonymizeBulwarkAmount").toLongLong();
+    nAnonymizeTuscAmount = settings.value("nAnonymizeTuscAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -150,8 +150,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeBulwarkAmount"))
-        SoftSetArg("-anonymizebulwarkamount", settings.value("nAnonymizeBulwarkAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeTuscAmount"))
+        SoftSetArg("-anonymizetuscamount", settings.value("nAnonymizeTuscAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -162,7 +162,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in bulwark.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in tusc.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -233,8 +233,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeBulwarkAmount:
-            return QVariant(nAnonymizeBulwarkAmount);
+        case AnonymizeTuscAmount:
+            return QVariant(nAnonymizeTuscAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -348,10 +348,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeBulwarkAmount:
-            nAnonymizeBulwarkAmount = value.toInt();
-            settings.setValue("nAnonymizeBulwarkAmount", nAnonymizeBulwarkAmount);
-            emit anonymizeBulwarkAmountChanged(nAnonymizeBulwarkAmount);
+        case AnonymizeTuscAmount:
+            nAnonymizeTuscAmount = value.toInt();
+            settings.setValue("nAnonymizeTuscAmount", nAnonymizeTuscAmount);
+            emit anonymizeTuscAmountChanged(nAnonymizeTuscAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

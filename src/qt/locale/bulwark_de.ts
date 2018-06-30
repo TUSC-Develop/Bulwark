@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie Bulwark überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie Tusc überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie Bulwark empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie Tusc empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre Bulwark-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Bulwark überweisen.</translation>
+        <source>These are your Tusc addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre Tusc-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie Tusc überweisen.</translation>
     </message>
     <message>
-        <source>These are your Bulwark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre Bulwark-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your Tusc addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre Tusc-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Bulwark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BWKs from being stolen by malware infecting your computer.</source>
-        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer BWKs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
+        <source>Tusc will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your TUSCs from being stolen by malware infecting your computer.</source>
+        <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer TUSCs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Sind Sie sich sicher, dass Sie ihre Wallet verschlüsseln möchten?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BWK&lt;/b&gt;!</source>
-        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre BWKs verlieren&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TUSC&lt;/b&gt;!</source>
+        <translation>Warnung: Wenn Sie ihre Wallet verschlüsseln und Ihre Passphrase verlieren werden Sie &lt;b&gt;alle ihre TUSCs verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a Bulwark Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine Bulwark Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a Tusc Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine Tusc Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Bulwark Adresse besitzt</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Tusc Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Geben Sie den BIP 38 verschlüsselten privaten Schlüssel ein. Geben Sie die Passphrase im mittleren Feld ein. Klicken Sie auf Entschlüsselung, um den privaten Schlüssel zu berechnen. Nachdem der Schlüssel entschlüsselt wurde, klicken Sie auf 'Adresse importieren', fügen Sie diesen privaten Schlüssel der Wallet hinzu.</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Die Bulwark Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The Tusc address the message was signed with</source>
+        <translation>Die Tusc Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Bulwark-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified Tusc address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Tusc-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Core</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Core</translation>
     </message>
     <message>
-        <source>Send coins to a Bulwark address</source>
-        <translation>An eine Bulwark-Adresse überweisen</translation>
+        <source>Send coins to a Tusc address</source>
+        <translation>An eine Tusc-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bulwark: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und bulwark: URIs)</translation>
+        <source>Request payments (generates QR codes and tusc: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und tusc: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +622,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About Bulwark Core</source>
-        <translation>Über.Bulwark Core</translation>
+        <source>&amp;About Tusc Core</source>
+        <translation>Über.Tusc Core</translation>
     </message>
     <message>
-        <source>Show information about Bulwark Core</source>
-        <translation>Zeigt Informationen über Bulwark Core</translation>
+        <source>Show information about Tusc Core</source>
+        <translation>Zeigt Informationen über Tusc Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bulwark</source>
-        <translation>Konfiguration von Bulwark verändern</translation>
+        <source>Modify configuration options for Tusc</source>
+        <translation>Konfiguration von Tusc verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your Bulwark addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer Bulwark-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your Tusc addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer Tusc-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bulwark addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Bulwark-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified Tusc addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten Tusc-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a Bulwark: URI or payment request</source>
-        <translation>Öffne eine Bulwark: URI or Zahlungsanfrage</translation>
+        <source>Open a Tusc: URI or payment request</source>
+        <translation>Öffne eine Tusc: URI or Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockchain Betrachter Fenster</translation>
     </message>
     <message>
-        <source>Show the Bulwark Core help message to get a list with possible Bulwark command-line options</source>
-        <translation>Zeige die Bulwark-Core Hilfe, um mögliche Bulwark Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <source>Show the Tusc Core help message to get a list with possible Tusc command-line options</source>
+        <translation>Zeige die Tusc-Core Hilfe, um mögliche Tusc Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
-        <source>Bulwark Core client</source>
-        <translation>Bulwark Core Client</translation>
+        <source>Tusc Core client</source>
+        <translation>Tusc Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -812,8 +812,8 @@ Adresse: %4</translation>
         <translation>TextEtikett</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bulwark.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "bulwark.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (tusc.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "tusc.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -1113,8 +1113,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bulwark address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige Bulwark-Adresse.</translation>
+        <source>The entered address "%1" is not a valid Tusc address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Tusc-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1159,16 +1159,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Core</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About Bulwark Core</source>
-        <translation>Über Bulwark Core</translation>
+        <source>About Tusc Core</source>
+        <translation>Über Tusc Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1214,16 +1214,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to Bulwark Core.</source>
-        <translation>Willkommen zu Bulwark Core.</translation>
+        <source>Welcome to Tusc Core.</source>
+        <translation>Willkommen zu Tusc Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bulwark Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie Bulwark Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where Tusc Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie Tusc Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>Bulwark Core will download and store a copy of the Bulwark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bulwark Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>Tusc Core will download and store a copy of the Tusc block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Tusc Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1234,8 +1234,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Core</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1372,12 +1372,12 @@ Adresse: %4</translation>
         <translation>Zieladresse eingeben</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Bulwark addresses after it matures.
-To Add: enter percentage to give and Bulwark address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Tusc addresses after it matures.
+To Add: enter percentage to give and Tusc address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen Bulwark-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die Bulwark-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen Tusc-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die Tusc-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1572,8 +1572,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Verschleierter Betrag:</translation>
     </message>
     <message>
-        <source>0 BWK / 0 Rounds</source>
-        <translation>0 BWK / 0 Runden</translation>
+        <source>0 TUSC / 0 Rounds</source>
+        <translation>0 TUSC / 0 Runden</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1705,8 +1705,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a Bulwark address (e.g. %1)</source>
-        <translation>Bulwark-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a Tusc address (e.g. %1)</source>
+        <translation>Tusc-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1892,7 +1892,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>BWKs überweisen</translation>
+        <translation>TUSCs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1967,8 +1967,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>UTXO Größe:</translation>
     </message>
     <message>
-        <source>0 BWK</source>
-        <translation>0 BWK</translation>
+        <source>0 TUSC</source>
+        <translation>0 TUSC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2106,8 +2106,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The Bulwark address to send the payment to</source>
-        <translation>Bulwark-Adresse, an die überwiesen werden soll</translation>
+        <source>The Tusc address to send the payment to</source>
+        <translation>Tusc-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2146,8 +2146,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Bulwark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bulwark network.</source>
-        <translation>Eine an die Bulwark-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Bulwark-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the Tusc: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tusc network.</source>
+        <translation>Eine an die Tusc-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Tusc-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2173,8 +2173,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bulwark Core is shutting down...</source>
-        <translation>Bulwark Core wird beendet...</translation>
+        <source>Tusc Core is shutting down...</source>
+        <translation>Tusc Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2188,8 +2188,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The Bulwark address to sign the message with</source>
-        <translation>Bulwark Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The Tusc address to sign the message with</source>
+        <translation>Tusc Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2216,16 +2216,16 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bulwark address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Bulwark Adresse besitzt</translation>
+        <source>Sign the message to prove you own this Tusc address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese Tusc Adresse besitzt</translation>
     </message>
     <message>
-        <source>The Bulwark address the message was signed with</source>
-        <translation>Die Bulwark Adresse mit welcher die Nachricht signiert wurde.</translation>
+        <source>The Tusc address the message was signed with</source>
+        <translation>Die Tusc Adresse mit welcher die Nachricht signiert wurde.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bulwark address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Bulwark-Adresse signiert wurde.</translation>
+        <source>Verify the message to ensure it was signed with the specified Tusc address</source>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen Tusc-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2263,8 +2263,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bulwark Core</source>
-        <translation>Bulwark Core</translation>
+        <source>Tusc Core</source>
+        <translation>Tusc Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2279,8 +2279,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The Bulwark Core developers</source>
-        <translation>Die Bulwark Core Entwickler</translation>
+        <source>The Tusc Core developers</source>
+        <translation>Die Tusc Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2438,7 +2438,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Erzeugte BWKs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine BWKs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+        <translation>Erzeugte TUSCs müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine TUSCs gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2800,11 +2800,11 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>BWKs überweisen</translation>
+        <translation>TUSCs überweisen</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 BWK.</source>
-        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 BWK begrenzt.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 TUSC.</source>
+        <translation>SwiftTX unterstützt das Versenden von Beträgen dieser Höhe noch nicht. Transaktionen sind zur Zeit auf maximal %1 TUSC begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -2847,7 +2847,7 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
     </message>
 </context>
 <context>
-    <name>bulwark-core</name>
+    <name>tusc-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2997,8 +2997,8 @@ MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translati
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bulwark Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte Bulwark Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart Tusc Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte Tusc Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

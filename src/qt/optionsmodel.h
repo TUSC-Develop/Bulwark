@@ -45,7 +45,7 @@ public:
         SpendZeroConfChange, // bool
 		ShowOrphans,         // bool
         ObfuscationRounds,   // int
-        AnonymizeBulwarkAmount, //int
+        AnonymizeTuscAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -92,7 +92,7 @@ private:
 signals:
     void displayUnitChanged(int unit);
     void obfuscationRoundsChanged(int);
-    void anonymizeBulwarkAmountChanged(int);
+    void anonymizeTuscAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 
