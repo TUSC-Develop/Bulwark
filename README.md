@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ![TUSC Logo](https://thatcoin.tech/wp-content/uploads/2018/06/tusc-1.png)
 
 TUSC Cryptocurrency
 &middot;
 [![GitHub license](https://img.shields.io/github/license/tusc-crypto/TUSC.svg)](https://github.com/tusc-crypto/TUSC/blob/master/COPYING) [![Build Status](https://travis-ci.org/tusc-crypto/TUSC.svg?branch=master)](https://travis-ci.org/tusc-crypto/TUSC) [![GitHub version](https://badge.fury.io/gh/tusc-crypto%2FTUSC.svg)](https://badge.fury.io/gh/tusc-crypto%2FTUSC) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/tusc)
+=======
+![Bulwark Logo](https://thatcoin.tech/wp-content/uploads/2018/06/tusc-1.png)
+
+TUSC Cryptocurrency
+&middot;
+[![GitHub license](https://img.shields.io/github/license/bulwark-crypto/Bulwark.svg)](https://github.com/bulwark-crypto/Bulwark/blob/master/COPYING) [![Build Status](https://travis-ci.org/bulwark-crypto/Bulwark.svg?branch=master)](https://travis-ci.org/bulwark-crypto/Bulwark) [![GitHub version](https://badge.fury.io/gh/bulwark-crypto%2FBulwark.svg)](https://badge.fury.io/gh/bulwark-crypto%2FBulwark) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/tusc)
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 =====
 
 That Universal Saving Coin (TUSC) is a privacy oriented digital currency with Masternodes and POS implemented.

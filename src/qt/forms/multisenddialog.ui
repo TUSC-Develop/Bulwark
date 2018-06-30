@@ -26,7 +26,11 @@
     </rect>
    </property>
    <property name="text">
+<<<<<<< HEAD
     <string>Add a TUSC Adresses at the bottom and configure the Multisend settings for each of them</string>
+=======
+    <string>Add a Bulwark Adresses at the bottom and configure the Multisend settings for each of them</string>
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
    </property>
   </widget>
   <widget class="QScrollArea" name="addAddressScrollArea">
@@ -235,7 +239,11 @@
          <string/>
         </property>
         <property name="icon">
+<<<<<<< HEAD
          <iconset resource="../tusc.qrc">
+=======
+         <iconset resource="../bulwark.qrc">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
           <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
         </property>
         <property name="autoDefault">

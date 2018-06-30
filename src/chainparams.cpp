@@ -97,6 +97,7 @@ public:
         pchMessageStart[3] = 0x17;
 	    vAlertPubKey = ParseHex("042dfbb26101a2b4c3966db428edd7a109298cf5427a2a5a1e364197975d13bb81a85a42d9cacd09fc70e79cf09ef589c01169eb62c4d922a7d1792766107b40ae");
         nDefaultPort = 20235;
+<<<<<<< HEAD
         bnProofOfWorkLimit = ~uint256(0) >> 20; // TUSC starting difficulty is 1 / 2^12
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
@@ -104,6 +105,15 @@ public:
         nTargetSpacingSlowLaunch = 5 * 90;  // TUSC: 7.5 minutes (Slow launch - Block 300)
 	    nTargetSpacing = 1 * 90; // TUSC: 1.5min after block 300
         nLastPOWBlock = 300;
+=======
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Bulwark starting difficulty is 1 / 2^12
+        nMaxReorganizationDepth = 100;
+        nMinerThreads = 0;
+        nTargetTimespan = 1 * 90; // Bulwark: 1.5 minutes
+        nTargetSpacingSlowLaunch = 5 * 90;  // Bulwark: 7.5 minutes (Slow launch - Block 300)
+	    nTargetSpacing = 1 * 90; // Bulwark: 1.5min after block 300
+        nLastPOWBlock = 182700;
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
 	    nRampToBlock = 960; // Slow start, ramp linearly to this block
@@ -214,6 +224,10 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet tusc addresses start with 'T'

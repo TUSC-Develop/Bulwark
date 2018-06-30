@@ -432,7 +432,11 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
+<<<<<<< HEAD
     <widget class="QtMaterialFlatButton" name="BuyTUSC" native="true">
+=======
+    <widget class="QtMaterialFlatButton" name="BuyBWK" native="true">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +446,17 @@
       </rect>
      </property>
      <property name="text" stdset="0">
+<<<<<<< HEAD
       <string>Buy TUSC</string>
      </property>
      <property name="icon" stdset="0">
       <iconset resource="../tusc.qrc">
+=======
+      <string>Buy BWK</string>
+     </property>
+     <property name="icon" stdset="0">
+      <iconset resource="../bulwark.qrc">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1741,7 +1752,11 @@
       </font>
      </property>
     </widget>
+<<<<<<< HEAD
     <widget class="QtMaterialFlatButton" name="SellTUSCBTN" native="true">
+=======
+    <widget class="QtMaterialFlatButton" name="SellBWKBTN" native="true">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1766,17 @@
       </rect>
      </property>
      <property name="text" stdset="0">
+<<<<<<< HEAD
       <string>Sell TUSC</string>
      </property>
      <property name="icon" stdset="0">
       <iconset resource="../tusc.qrc">
+=======
+      <string>Sell BWK</string>
+     </property>
+     <property name="icon" stdset="0">
+      <iconset resource="../bulwark.qrc">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -2941,10 +2963,17 @@
       </rect>
      </property>
      <property name="text" stdset="0">
+<<<<<<< HEAD
       <string>Generate TUSC Deposit Address</string>
      </property>
      <property name="icon" stdset="0">
       <iconset resource="../tusc.qrc">
+=======
+      <string>Generate Bulwark Deposit Address</string>
+     </property>
+     <property name="icon" stdset="0">
+      <iconset resource="../bulwark.qrc">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3184,11 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
+<<<<<<< HEAD
      <widget class="QtMaterialFlatButton" name="btnConvertTUSC" native="true">
+=======
+     <widget class="QtMaterialFlatButton" name="btnConvertBulwark" native="true">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3253,7 +3286,11 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon" stdset="0">
+<<<<<<< HEAD
       <iconset resource="../tusc.qrc">
+=======
+      <iconset resource="../bulwark.qrc">
+>>>>>>> 577e63a28f8333aa64a1eba58ed1eadf58744b97
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
