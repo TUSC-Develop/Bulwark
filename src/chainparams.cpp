@@ -107,7 +107,7 @@ public:
         nLastPOWBlock = 300;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
-	    nRampToBlock = 960; // Slow start, ramp linearly to this block
+	    nRampToBlock = 260; // Slow start, ramp linearly to this block
         nMaturity = 25; // 25 Minutes
 	    nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 1;
