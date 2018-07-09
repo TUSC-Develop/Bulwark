@@ -78,7 +78,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x000003cf78e9c85b18e2d031a33d53e53189734086fbe7393e91e4fa96a48e90"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -89,7 +89,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x00000f1e1bf84a1beb475af2c8fb0e2bf9033144a51487bd902a65c38754f927"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1531146601,
@@ -99,7 +99,7 @@ static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1454124731,
+    1531146631,
     0,
     100};
 class CMainParams : public CChainParams
@@ -139,7 +139,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "THE GUARDIAN 07/06/2018 Mike Pompeo holds nuclear talks with North Korean officials in Pyongyang";
+        const char* pszTimestamp = "THE GUARDIAN 07/09/2018 Thai cave rescue: eight boys now freed as mission to save others continues – live";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -152,11 +152,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1531146600;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
-        MineGenesis(genesis);
+        genesis.nNonce = 368537;
+
 	hashGenesisBlock = genesis.GetHash();
-//		assert(hashGenesisBlock == uint256("0x00000875205deaa004fff40568fd86fc6dceee248a35277cfe688ef5985009da"));
-//		assert(genesis.hashMerkleRoot == uint256("0xa2371233e08d4ed79ca7b619c4f18695e6bd5e490623a8cd44c2e7afa3d8d05b"));
+		assert(hashGenesisBlock == uint256("0x000003cf78e9c85b18e2d031a33d53e53189734086fbe7393e91e4fa96a48e90"));
+		assert(genesis.hashMerkleRoot == uint256("0x778dd3ff9503157b6a7b7cd178a7850e3fd1436b492fdc276db5484f030f325f"));
 
         vSeeds.push_back(CDNSSeedData("master.thatcoin.tech", "master.thatcoin.tech"));      // Single node address
         vSeeds.push_back(CDNSSeedData("slave.thatcoin.teach", "slave.thatcoin.tech"));      // Single node address
@@ -170,7 +170,7 @@ public:
 //        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
 //        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
 //        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
-	    //BIP44 as defined by https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
+//BIP44 as defined by https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
 	    convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -232,12 +232,12 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1531146601;
-        genesis.nNonce = 0;
+        genesis.nNonce = 155006;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x00000f1e1bf84a1beb475af2c8fb0e2bf9033144a51487bd902a65c38754f927"));
+        assert(genesis.hashMerkleRoot == uint256("0x778dd3ff9503157b6a7b7cd178a7850e3fd1436b492fdc276db5484f030f325f"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -290,9 +290,9 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Tusc: 1 day
         nTargetSpacing = 1 * 60;        // Tusc: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1531146631;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
 //        assert(hashGenesisBlock == uint256("0x"));
