@@ -207,7 +207,7 @@ QComboBox {
 	padding: 3px 5px 3px 5px;
 	background: #fcfcfc;
 	min-height: 25px;
-	color: #818181
+	color: #a3a738
 }
 QComboBox:checked {
 	background: #f2f2f2
@@ -229,13 +229,13 @@ QComboBox QListView {
 	border: 1px solid #333;
 	padding-right: 1px;
 	padding-left: 1px;
-	color: #818181
+	color: #a3a738
 }
 QComboBox QAbstractItemView::item {
 	margin: 4px
 }
 QComboBox::item {
-	color: #818181
+	color: #a3a738
 }
 QComboBox::item:alternate {
 	background: #fff
@@ -535,7 +535,7 @@ QDialog#OptionsDialog QWidget#tabDisplay QValueComboBox {
 }
 QDialog#OptionsDialog QLabel#label_3 {
 	qproperty-alignment: 'AlignVCenter | AlignCenter';
-	color: #818181;
+	color: #a3a738;
 	padding-bottom: 8px
 }
 QDialog#OptionsDialog QCheckBox {
@@ -895,11 +895,11 @@ QDialog#CoinControlDialog .QFrame#frame .QtMaterialFlatButton#pushButtonToggleLo
 	min-height: 25px
 }
 QDialog#CoinControlDialog .QDialogButtonBox#buttonBox QtMaterialFlatButton {} QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioTreeMode {
-	color: #818181;
+	color: #a3a738;
 	background-color: transparent
 }
 QDialog#CoinControlDialog .QFrame#frame .QRadioButton#radioListMode {
-	color: #818181;
+	color: #a3a738;
 	background-color: transparent
 }
 QDialog#CoinControlDialog QHeaderView::section:first {
@@ -1038,5 +1038,5 @@ QCalendarWidget QAbstractItemView:enabled {
 	color: #333
 }
 QCalendarWidget QAbstractItemView:disabled {
-	color: #818181
+	color: #a3a738
 }
