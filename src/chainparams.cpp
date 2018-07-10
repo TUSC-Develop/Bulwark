@@ -25,6 +25,7 @@ struct SeedSpec6 {
 };
 
 #include "chainparamsseeds.h"
+
 void MineGenesis(CBlock genesis){
     // This will figure out a valid hash and Nonce if you're creating a different genesis block:
     uint256 newhash = genesis.GetHash();
@@ -77,28 +78,28 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x00000c2432502e1fa448858527c3e62a16282e72e84f6bdb0a9175ada51a0b48"));
+        (0, uint256("0x00000b407a116d2ac31b5408fcd92f47b396134e7920a2073d43506e9c910952"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1531182600,// * UNIX timestamp of last checkpoint block
+    1531146600,// * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x00000f75e835201379d8f8522ca034c50ca6770938b6c44d3b858a74dc7d370a"));
+	boost::assign::map_list_of(0, uint256("0x0000074af7bb615524236669c2c612f8e018a55091bce436c453a04a7b8d0fe0"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1531182601,
+    1531146601,
     0,
     250};
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1531182631,
+    1531146631,
     0,
     100};
 class CMainParams : public CChainParams
@@ -125,7 +126,7 @@ public:
         nTargetTimespan = 1 * 60; // Tusc: 1 minute
         nTargetSpacingSlowLaunch = 5 * 90;  // Tusc: 7.5 minutes (Slow launch - Block 300)
 	    nTargetSpacing = 1 * 60; // Tusc: 1min after block 100
-        nLastPOWBlock = 1500;
+        nLastPOWBlock = 1000;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
 	    nRampToBlock = 250; // Slow start, ramp linearly to this block
@@ -138,7 +139,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "THE GUARDIAN 07/10/2018 Thai cave rescue: eight boys now freed as mission to save others continues – live";
+        const char* pszTimestamp = "THE GUARDIAN 07/10/2018 Who owns the space under cities? The attempt to map the ground beneath us";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -149,27 +150,27 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531182600;
+        genesis.nTime = 1531146600;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 1199343;
+        genesis.nNonce = 375914;
 
 	hashGenesisBlock = genesis.GetHash();
-		assert(hashGenesisBlock == uint256("0x00000c2432502e1fa448858527c3e62a16282e72e84f6bdb0a9175ada51a0b48"));
-		assert(genesis.hashMerkleRoot == uint256("0xd91b44998fa9b6274476549ef78e451c93894de038fb77e272fc26cd9d010a15"));
+		assert(hashGenesisBlock == uint256("0x00000b407a116d2ac31b5408fcd92f47b396134e7920a2073d43506e9c910952"));
+		assert(genesis.hashMerkleRoot == uint256("0x7dac859c074a2c0f0607e8475407847106c9595c691afc62410c4ee4236a5df3"));
 
-        vSeeds.push_back(CDNSSeedData("master.thatcoin.tech", "master.thatcoin.tech"));      // Single node address
-        vSeeds.push_back(CDNSSeedData("slave.thatcoin.teach", "slave.thatcoin.tech"));      // Single node address
+    vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
+    vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
+    vSeeds.push_back(CDNSSeedData("tseed3.thatcoin.tech", "tseed3.thatcoin.tech"));      // Single node addres
+    vSeeds.push_back(CDNSSeedData("tseed4.thatcoin.tech", "tseed4.thatcoin.tech"));      // Single node address
+    vSeeds.push_back(CDNSSeedData("tseed5.thatcoin.tech", "tseed5.thatcoin.tech"));      // Single node address
+    vSeeds.push_back(CDNSSeedData("tseed6.thatcoin.tech", "tseed6.thatcoin.tech"));      // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 128); // t
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 18);
-	base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
+      	base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
-	base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
-//        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
-//        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-//        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
-//BIP44 as defined by https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki
+      	base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
 	    convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
@@ -188,7 +189,7 @@ public:
 
         strSporkKey = "04017e4c47f70a434d6e204d5817277162a37b36fa896105a0ad298113079480e070aaef7ed8d1472f7690fd3eb46b4c627d157b7d32a6bf70f129e8a54e072458";
         strObfuscationPoolDummyAddress = "ti1VQna6by2AvdT38L5JkKg82XPhBbzyLR";
-        nStartMasternodePayments = 1531186200;
+        nStartMasternodePayments = 1531157400;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -231,12 +232,12 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1531146601;
-        genesis.nNonce = 1968143;
+        genesis.nNonce = 217911;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000f75e835201379d8f8522ca034c50ca6770938b6c44d3b858a74dc7d370a"));
-        assert(genesis.hashMerkleRoot == uint256("0xd91b44998fa9b6274476549ef78e451c93894de038fb77e272fc26cd9d010a15"));
+        assert(hashGenesisBlock == uint256("0x0000074af7bb615524236669c2c612f8e018a55091bce436c453a04a7b8d0fe0"));
+        assert(genesis.hashMerkleRoot == uint256("0x7dac859c074a2c0f0607e8475407847106c9595c691afc62410c4ee4236a5df3"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -289,7 +290,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Tusc: 1 day
         nTargetSpacing = 1 * 60;        // Tusc: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1531182631;
+        genesis.nTime = 1531146631;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
