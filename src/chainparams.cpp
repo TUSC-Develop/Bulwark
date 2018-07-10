@@ -82,7 +82,7 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1531146600,// * UNIX timestamp of last checkpoint block
+    1531236600,// * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -92,14 +92,14 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 	boost::assign::map_list_of(0, uint256("0x0000074af7bb615524236669c2c612f8e018a55091bce436c453a04a7b8d0fe0"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1531146601,
+    1531236601,
     0,
     250};
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1531146631,
+    1531236631,
     0,
     100};
 class CMainParams : public CChainParams
@@ -126,7 +126,7 @@ public:
         nTargetTimespan = 1 * 60; // Tusc: 1 minute
         nTargetSpacingSlowLaunch = 5 * 90;  // Tusc: 7.5 minutes (Slow launch - Block 300)
 	    nTargetSpacing = 1 * 60; // Tusc: 1min after block 100
-        nLastPOWBlock = 1000;
+        nLastPOWBlock = 1500;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
 	    nRampToBlock = 250; // Slow start, ramp linearly to this block
@@ -150,7 +150,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531146600;
+        genesis.nTime = 1531236600;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
         genesis.nNonce = 375914;
 
@@ -231,7 +231,7 @@ public:
         nToCheckBlockUpgradeMajority = 100;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1531146601;
+        genesis.nTime = 1531236601;
         genesis.nNonce = 217911;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
@@ -290,7 +290,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Tusc: 1 day
         nTargetSpacing = 1 * 60;        // Tusc: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1531146631;
+        genesis.nTime = 1531236631;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
