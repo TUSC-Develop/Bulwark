@@ -59,11 +59,11 @@ QToolBar > QToolButton:checked {
 	color: #fff
 }
 QToolBar > QToolButton:hover {
-	background-color: #5e92f3;
+	background-color: #a3a838;
 	color: #fff
 }
 QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-	background-color: #5e92f3;
+	background-color: #a3a838;
 }
 QToolBar > QToolButton:pressed {
 	background-color: #767b12;
@@ -101,7 +101,7 @@ QTabBar {
 	color: #333
 }
 QTabBar::tab:hover:!selected {
-	background-color: #5e92f3
+	background-color: #a3a838
 }
 QWidget {
 	selection-background-color: #a3a838;
@@ -182,7 +182,7 @@ QtMaterialFlatButton:hover {
 QtMaterialFlatButton:focus {} QtMaterialFlatButton:pressed {
 	background-color: #a3a838;
 	border: 1px solid #000000;
-	background-color: #5e92f3
+	background-color: #a3a838
 }
 QLabel#labelEncryptionIcon,
 QLabel#labelConnectionsIcon,
@@ -196,10 +196,10 @@ QtMaterialFlatButton#labelAutoMintIcon{
 	margin: 0px
 }
 QSpinBox::up-button:hover {
-	background-color: #5e92f3
+	background-color: #a3a838
 }
 QSpinBox::down-button:hover {
-	background-color: #5e92f3
+	background-color: #a3a838
 }
 QComboBox {
 	border: 1px solid #a3a838;
@@ -351,7 +351,7 @@ QTableView::item:selected {
 }
 QTableWidget {
 	background-color: #fcfcfc;
-	alternate-background-color: #FFFF00;
+	alternate-background-color: #a3a838;
 	border: 1px solid #333
 }
 QTableWidget:focus,
@@ -1031,7 +1031,7 @@ QCalendarWidget QWidget#qt_calendar_navigationbar {
 	font-weight: 700
 }
 QCalendarWidget QAbstractItemView {
-	alternate-background-color: #5e92f3;
+	alternate-background-color: #a3a838;
 	background-color: #fff
 }
 QCalendarWidget QAbstractItemView:enabled {
