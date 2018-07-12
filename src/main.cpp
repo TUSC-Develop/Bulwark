@@ -1879,7 +1879,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
                     nMasternodeCount = mnodeman.size();
             }
 
-            int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
+            int64_t mNodeCoins = nMasternodeCount * 15000 * COIN;
             int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
 
             ret = GetSeeSawReward(blockValue, nMoneySupply, mNodeCoins);
@@ -1912,7 +1912,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         }
 
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
+        int64_t mNodeCoins = nMasternodeCount * 15000 * COIN;
         LogPrintf("Adjusting seesaw at height %d with %d masternodes (without drift: %d) at %ld\n", nHeight, nMasternodeCount, nMasternodeCount - Params().MasternodeCountDrift(), GetTime());
 
         if (fDebug) {
