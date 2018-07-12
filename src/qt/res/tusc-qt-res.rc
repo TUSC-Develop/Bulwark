@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Tusc"
-            VALUE "FileDescription",    "Tusc Core (OSS GUI client for Tusc)"
+            VALUE "CompanyName",        "TUSC"
+            VALUE "FileDescription",    "TUSC Core (OSS GUI client for Tusc)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "tusc-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "tusc-qt.exe"
-            VALUE "ProductName",        "Tusc Core"
+            VALUE "ProductName",        "TUSC Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
