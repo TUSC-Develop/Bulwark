@@ -1646,7 +1646,7 @@ int64_t GetBlockValue(int nHeight)
 
     // POW for Premine and POS for Year 1
     if (nHeight == 0) {
-        nSubsidy = 250000.00 * COIN;
+        nSubsidy = 300000.00 * COIN;
     } else if (nHeight < Params().RAMP_TO_BLOCK() / 2) {
         nSlowSubsidy /= Params().RAMP_TO_BLOCK();
         nSlowSubsidy *= nHeight;
@@ -1893,9 +1893,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     // Mainnet
     if (nHeight < Params().RAMP_TO_BLOCK()) {
 	    ret = 0;
-    } else if (nHeight <= 28799 && nHeight >= Params().RAMP_TO_BLOCK()) {
+    } else if (nHeight <= 199 && nHeight >= Params().RAMP_TO_BLOCK()) {
         ret = blockValue / 5;
-    } else if (nHeight <= 57599 && nHeight >= 28800) {
+    } else if (nHeight <= 57599 && nHeight >= 200) {
 	    ret = blockValue / 4;
     } else if (nHeight <= 86399 && nHeight >= 57600) {
 	    ret = blockValue / 3;

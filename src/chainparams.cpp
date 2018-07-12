@@ -126,10 +126,10 @@ public:
         nTargetTimespan = 1 * 60; // Tusc: 1 minute
         nTargetSpacingSlowLaunch = 5 * 90;  // Tusc: 7.5 minutes (Slow launch - Block 300)
 	    nTargetSpacing = 1 * 60; // Tusc: 1min after block 100
-        nLastPOWBlock = 1500;
+        nLastPOWBlock = 300;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
-	    nRampToBlock = 250; // Slow start, ramp linearly to this block
+	    nRampToBlock = 100; // Slow start, ramp linearly to this block
         nMaturity = 25; // 25 Minutes
 	    nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 1;
