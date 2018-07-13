@@ -14,7 +14,7 @@
  */
 
 //! These need to be macros, as clientversion.cpp's and tusc*-res.rc's voodoo requires it
-#define CLIENT_VERSION_MAJOR 0
+#define CLIENT_VERSION_MAJOR 1
 #define CLIENT_VERSION_MINOR 3
 #define CLIENT_VERSION_REVISION 3
 #define CLIENT_VERSION_BUILD 0
