@@ -139,7 +139,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "THE GUARDIAN 07/12/2018 Tens of thousands expected to protest at Donald Trump UK visit";
+        const char* pszTimestamp = "THE GUARDIAN 07/13/2018 Donald Trump at Windsor to meet the Queen after calling Sun interview 'fake news' – live";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
