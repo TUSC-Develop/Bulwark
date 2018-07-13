@@ -1656,11 +1656,11 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight <= 100 && nHeight >= Params().RAMP_TO_BLOCK()) {
 	    nSubsidy = 25 * COIN;
     } else if (nHeight <= 200000 && nHeight >= 101) { // Keep reward schedule.
-        nSubsidy = 35.00 * COIN;
+        nSubsidy = 15.00 * COIN;
     } else if (nHeight <= 259199 && nHeight > 200001) {
-        nSubsidy = 32.5 * COIN;
+        nSubsidy = 12.5 * COIN;
     } else if (nHeight <= 345600 && nHeight >= 259201) {
-        nSubsidy = 31.25 * COIN;
+        nSubsidy = 11.25 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
@@ -1879,7 +1879,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
                     nMasternodeCount = mnodeman.size();
             }
 
-            int64_t mNodeCoins = nMasternodeCount * 15000 * COIN;
+            int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
             int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
 
             ret = GetSeeSawReward(blockValue, nMoneySupply, mNodeCoins);
@@ -1893,13 +1893,13 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     // Mainnet
     if (nHeight < Params().RAMP_TO_BLOCK()) {
 	    ret = 0;
-    } else if (nHeight <= 199 && nHeight >= Params().RAMP_TO_BLOCK()) {
+    } else if (nHeight <= 49 && nHeight >= Params().RAMP_TO_BLOCK()) {
         ret = blockValue / 5;
-    } else if (nHeight <= 57599 && nHeight >= 200) {
+    } else if (nHeight <= 57599 && nHeight >= 50) {
 	    ret = blockValue / 4;
     } else if (nHeight <= 86399 && nHeight >= 57600) {
 	    ret = blockValue / 3;
-    } else if (nHeight <= nLastPOWBlock && nHeight >= 86400) {
+    } else if (nHeight  >= 86400) {
 	    ret = blockValue / 2;
     } else if (nHeight > nLastPOWBlock) {
         // if a mn count is inserted into the function we are looking for a
@@ -1912,7 +1912,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         }
 
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-        int64_t mNodeCoins = nMasternodeCount * 15000 * COIN;
+        int64_t mNodeCoins = nMasternodeCount * 5000 * COIN;
         LogPrintf("Adjusting seesaw at height %d with %d masternodes (without drift: %d) at %ld\n", nHeight, nMasternodeCount, nMasternodeCount - Params().MasternodeCountDrift(), GetTime());
 
         if (fDebug) {
