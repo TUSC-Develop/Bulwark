@@ -41,7 +41,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Tusc cannot be compiled without assertions."
+#error "Bulwark cannot be compiled without assertions."
 #endif
 
 /**
@@ -1609,7 +1609,7 @@ double ConvertBitsToDouble(unsigned int nBits)
     }
 
     return dDiff;
-}
+} 
 
 int64_t GetBlockValue(int nHeight)
 {
@@ -1628,12 +1628,12 @@ int64_t GetBlockValue(int nHeight)
         else if (newHeight >= 101 && newHeight <= 300)
             reward = 125 * COIN;
         else if (newHeight >= 301 && newHeight <= 900)
-            reward = 100 * COIN;
+            reward = 100 * COIN; 
         else if (newHeight >= 901 && newHeight <= 1200)
             reward = 50 * COIN;
         else if (newHeight >= 1201 && newHeight <= 2000)
             reward = 25 * COIN;
-
+        
         return reward;
     }
 
@@ -1643,24 +1643,66 @@ int64_t GetBlockValue(int nHeight)
      */
     int64_t nSubsidy = 0;
     CAmount nSlowSubsidy = 50 * COIN;
-
-    // POW for Premine and POS for Year 1
+  
+    // POW Year 0
     if (nHeight == 0) {
-        nSubsidy = 300000.00 * COIN;
+        nSubsidy = 489720.00 * COIN;
     } else if (nHeight < Params().RAMP_TO_BLOCK() / 2) {
         nSlowSubsidy /= Params().RAMP_TO_BLOCK();
         nSlowSubsidy *= nHeight;
     } else if (nHeight < Params().RAMP_TO_BLOCK()) {
         nSlowSubsidy /= Params().RAMP_TO_BLOCK();
         nSlowSubsidy *= nHeight;
-    } else if (nHeight <= 100 && nHeight >= Params().RAMP_TO_BLOCK()) {
-	    nSubsidy = 25 * COIN;
-    } else if (nHeight <= 200000 && nHeight >= 101) { // Keep reward schedule.
-        nSubsidy = 15.00 * COIN;
-    } else if (nHeight <= 259199 && nHeight > 200001) {
-        nSubsidy = 12.5 * COIN;
-    } else if (nHeight <= 345600 && nHeight >= 259201) {
-        nSubsidy = 11.25 * COIN;
+    } else if (nHeight <= 86399 && nHeight >= Params().RAMP_TO_BLOCK()) {
+	    nSubsidy = 50 * COIN;
+    } else if (nHeight <= 172800 && nHeight >= 86400) { // Keep reward schedule.
+        nSubsidy = 43.75 * COIN;
+    } else if (nHeight <= 259199 && nHeight > 172800) {
+        nSubsidy = 37.5 * COIN;
+    } else if (nHeight <= 345599 && nHeight >= 259200) {
+        nSubsidy = 31.25 * COIN;
+
+    // POS Year 1
+    } else if (nHeight <= 431999 && nHeight >= 345600) {
+        nSubsidy = 25 * COIN;
+    } else if (nHeight <= 518399 && nHeight >= 432000) {
+        nSubsidy = 21.875 * COIN;
+    } else if (nHeight <= 604799 && nHeight >= 518400) {
+        nSubsidy = 18.750 * COIN;
+    } else if (nHeight <= 691199 && nHeight >= 604800) {
+        nSubsidy = 15.625 * COIN;
+
+    // POS Year 2
+    } else if (nHeight <= 777599 && nHeight >= 691200) {
+        nSubsidy = 12.50 * COIN;
+    } else if (nHeight <= 863999 && nHeight >= 777600) {
+        nSubsidy = 10.938 * COIN;
+    } else if (nHeight <= 950399 && nHeight >= 864000) {
+        nSubsidy = 9.375 * COIN;
+    } else if (nHeight <= 1036799 && nHeight >= 950400) {
+        nSubsidy = 7.812 * COIN;
+
+    // POS Year 3
+    } else if (nHeight <= 1123199 && nHeight >= 1036800) {
+        nSubsidy = 6.250 * COIN;
+    } else if (nHeight <= 1209599 && nHeight >= 1123200) {
+        nSubsidy = 5.469 * COIN;
+    } else if (nHeight <= 1295999 && nHeight >= 1209600) {
+        nSubsidy = 4.688 * COIN;
+    } else if (nHeight <= 1382399 && nHeight >= 1296000) {
+        nSubsidy = 3.906 * COIN;
+
+    // POS Year 4
+    } else if (nHeight <= 1468799 && nHeight >= 1382400) {
+        nSubsidy = 3.125 * COIN;
+    } else if (nHeight <= 1555199 && nHeight >= 1468800) {
+        nSubsidy = 2.734 * COIN;
+    } else if (nHeight <= 1641599 && nHeight >= 1555200) {
+        nSubsidy = 2.344 * COIN;
+    } else if (nHeight <= 1727999 && nHeight >= 1641600) {
+        nSubsidy = 1.953 * COIN;
+    } else if (nHeight > 1728000) {
+        nSubsidy = 1.625 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
@@ -1870,7 +1912,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     // Testnet
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight > nLastPOWBlock) {
-            // if a mn count is inserted into the function we are looking for a
+            // if a mn count is inserted into the function we are looking for a 
             // specific result for a masternode count.
             if (nMasternodeCount < 1) {
                 if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT))
@@ -1886,23 +1928,23 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         } else if (nHeight >= Params().RAMP_TO_BLOCK()) {
             ret = blockValue / 2;
         }
-
+        
         return ret;
     }
 
     // Mainnet
     if (nHeight < Params().RAMP_TO_BLOCK()) {
 	    ret = 0;
-    } else if (nHeight <= 49 && nHeight >= Params().RAMP_TO_BLOCK()) {
+    } else if (nHeight <= 28799 && nHeight >= Params().RAMP_TO_BLOCK()) {
         ret = blockValue / 5;
-    } else if (nHeight <= 57599 && nHeight >= 50) {
+    } else if (nHeight <= 57599 && nHeight >= 28800) {
 	    ret = blockValue / 4;
     } else if (nHeight <= 86399 && nHeight >= 57600) {
 	    ret = blockValue / 3;
-    } else if (nHeight  >= 86400) {
+    } else if (nHeight <= nLastPOWBlock && nHeight >= 86400) {
 	    ret = blockValue / 2;
-    } else if (nHeight > nLastPOWBlock) {
-        // if a mn count is inserted into the function we are looking for a
+    } else if (nHeight > nLastPOWBlock) {        
+        // if a mn count is inserted into the function we are looking for a 
         // specific result for a masternode count.
         if (nMasternodeCount < 1) {
             if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT))
@@ -1917,7 +1959,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
         if (fDebug) {
             LogPrintf(
-                "GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n",
+                "GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", 
                 FormatMoney(nMoneySupply).c_str(),
                 FormatMoney(mNodeCoins).c_str()
             );
@@ -2312,7 +2354,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("tusc-scriptch");
+    RenameThread("bulwark-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2342,7 +2384,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
         return true;
     }
 
-    // If the Pow rollback spork is active then
+    // If the Pow rollback spork is active then 
     // need to change PoW height.
     int nLastPOWBlock = Params().LAST_POW_BLOCK();
     if (IsSporkActive(SPORK_19_POW_ROLLBACK))
@@ -5623,7 +5665,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 }
 
 // Note: whenever a protocol update is needed toggle between both implementations (comment out the formerly active one)
-//       so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients).
+//       so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients). 
 //       Those old clients won't react to the changes of the other (new) SPORK because at the time of their implementation
 //
 
@@ -5631,13 +5673,13 @@ int ActiveProtocol()
 {
     if (IsSporkActive(SPORK_20_NEW_PROTOCOL_DYNAMIC))
         return GetSporkValue(SPORK_20_NEW_PROTOCOL_DYNAMIC);
-
+	
     if (IsSporkActive(SPORK_18_NEW_PROTOCOL_ENFORCEMENT_4))
         return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT18;
-
+	
     if (IsSporkActive(SPORK_17_NEW_PROTOCOL_ENFORCEMENT_3))
         return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT17;
-
+	
     if (IsSporkActive(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
     	return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT15;
 
