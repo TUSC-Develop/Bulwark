@@ -137,7 +137,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "The NY Times 07-14-2018: How to Meet Autistic People Halfway";
+        const char* pszTimestamp = "The NY Times 07-16-2018: Trump and Putin Hold Talks With Advisers After Closed Meeting";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
