@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61e7a25e-0f21-4069-91c0-348f0621bdce" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/chainparams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +25,17 @@
       <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="139" column="122" selection-start-line="139" selection-start-column="122" selection-end-line="139" selection-end-column="122" />
+            <state relative-caret-position="-1122">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="1657" column="52" selection-start-line="1657" selection-start-column="52" selection-end-line="1657" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -41,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/clientversion.h" />
         <option value="$PROJECT_DIR$/configure.ac" />
         <option value="$PROJECT_DIR$/src/version.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/chainparams.cpp" />
       </list>
     </option>
@@ -112,12 +123,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531754422756</updated>
-      <workItem from="1531754424440" duration="730000" />
+      <workItem from="1531754424440" duration="2045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="730000" />
+    <option name="totallyTimeSpent" value="2045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -169,10 +180,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="1657" column="52" selection-start-line="1657" selection-start-column="52" selection-end-line="1657" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="139" column="122" selection-start-line="139" selection-start-column="122" selection-end-line="139" selection-end-column="122" />
+        <state relative-caret-position="-1122">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

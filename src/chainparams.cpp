@@ -25,29 +25,7 @@ struct SeedSpec6 {
 };
 
 #include "chainparamsseeds.h"
-void MineGenesis(CBlock genesis){
-    // This will figure out a valid hash and Nonce if you're creating a different genesis block:
-    uint256 newhash = genesis.GetHash();
-    uint256 besthash;
-    int64_t nStart = GetTime();
-    uint256 hashTarget = ~uint256(0) >> 20;
-    printf("Target: %s\n", hashTarget.GetHex().c_str());
-    memset(&besthash,0xFF,32);
-    while (newhash > hashTarget) {
-        ++genesis.nNonce;
-        if (genesis.nNonce == 0){
-            printf("NONCE WRAPPED, incrementing time");
-            ++genesis.nTime;
-        }
-        newhash = genesis.GetHash();
-        if(newhash < besthash){
-            besthash=newhash;
-            printf("New best: %s\n", newhash.GetHex().c_str());
-        }
-    }
-    printf("Found Genesis, Nonce: %ld, Hash: %s\n", genesis.nNonce, genesis.GetHash().GetHex().c_str());
-    printf("Gensis Hash Merkle: %s\n", genesis.hashMerkleRoot.ToString().c_str());
-}
+
 /**
  * Main network
  */
@@ -76,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x0000046946422dbd0cb6e4fc091b14e470b61eda061d0f4d0d3a5297af06517f"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -87,7 +65,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x00000a856a988b629c747eb97632301a02dca523aace6a71798981462eee61c8"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1531872001,
@@ -150,11 +128,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1531872000;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
-        MineGenesis(genesis);
+        genesis.nNonce = 2118321;
+
 	    hashGenesisBlock = genesis.GetHash();
-//        assert(hashGenesisBlock == uint256("0x0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574"));
-//	    assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+        assert(hashGenesisBlock == uint256("0x0000046946422dbd0cb6e4fc091b14e470b61eda061d0f4d0d3a5297af06517f"));
+	    assert(genesis.hashMerkleRoot == uint256("0xf95846e965b12bd5f206f72e94d9df4a4869d831508002bcf9cdecdf9c3eb1ce"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -228,12 +206,12 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1531872001;
-        genesis.nNonce = 0;
+        genesis.nNonce = 336887;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285"));
-        //assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+        assert(hashGenesisBlock == uint256("0x00000a856a988b629c747eb97632301a02dca523aace6a71798981462eee61c8"));
+        assert(genesis.hashMerkleRoot == uint256("0xf95846e965b12bd5f206f72e94d9df4a4869d831508002bcf9cdecdf9c3eb1ce"));
 
         vFixedSeeds.clear();
         vSeeds.clear();

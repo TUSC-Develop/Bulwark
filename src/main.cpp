@@ -1653,9 +1653,9 @@ int64_t GetBlockValue(int nHeight)
     } else if (nHeight < Params().RAMP_TO_BLOCK()) {
         nSlowSubsidy /= Params().RAMP_TO_BLOCK();
         nSlowSubsidy *= nHeight;
-    } else if (nHeight <= 86399 && nHeight >= Params().RAMP_TO_BLOCK()) {
+    } else if (nHeight <= 49999 && nHeight >= Params().RAMP_TO_BLOCK()) {
 	    nSubsidy = 10 * COIN;
-    } else if (nHeight <= 172800 && nHeight >= 86400) { // Keep reward schedule.
+    } else if (nHeight <= 172800 && nHeight >= 50000) { // Keep reward schedule.
         nSubsidy = 15.0 * COIN;
     } else if (nHeight <= 259199 && nHeight > 172800) {
         nSubsidy = 12.5 * COIN;
