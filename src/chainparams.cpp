@@ -185,7 +185,7 @@ public:
 	    nPoolMaxTransactions = 3;
         strSporkKey = "04690406b32b79097f8fee6a3fdb3209aec10425bbbc67c55b6506bd0d7f9db5e63d1a713e5a535d46d2ef70700a3c074609e7115033b156418f1888ee4b8ed9ce";
         strObfuscationPoolDummyAddress = "bDiJwVuKv9dcKBN4KCfX6UmXbkpqLfzGyf";
-        nStartMasternodePayments = 1531769400;
+        nStartMasternodePayments = 1531771200;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -259,7 +259,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "0479b254c36d7d23651d2a35303713a24db175a6835bd60fc98aff94c6922178b5ce69e293e6bcf761ad88e60d1731219a49af9ffe94f4bccc8e33edcda2c5f111";
         strObfuscationPoolDummyAddress = "TUQ57Fbh1crybrDhV6X9SDH95H4oSq4v6p";
-        nStartMasternodePayments = 1531769401; //Fri, 09 Jan 2015 21:05:58 GMT
+        nStartMasternodePayments = 1531771201; //Fri, 09 Jan 2015 21:05:58 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
