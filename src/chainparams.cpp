@@ -80,8 +80,8 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1531594800,// * UNIX timestamp of last checkpoint block
-    311898,    // * total number of transactions between genesis and last checkpoint
+    1531872000,// * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -90,14 +90,14 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 	boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1531594801,
+    1531872001,
     0,
     250};
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1531594831,
+    1531872031,
     0,
     100};
 class CMainParams : public CChainParams
@@ -148,7 +148,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1531594800;
+        genesis.nTime = 1531872000;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
         genesis.nNonce = 0;
         MineGenesis(genesis);
@@ -185,7 +185,7 @@ public:
 	    nPoolMaxTransactions = 3;
         strSporkKey = "04690406b32b79097f8fee6a3fdb3209aec10425bbbc67c55b6506bd0d7f9db5e63d1a713e5a535d46d2ef70700a3c074609e7115033b156418f1888ee4b8ed9ce";
         strObfuscationPoolDummyAddress = "bDiJwVuKv9dcKBN4KCfX6UmXbkpqLfzGyf";
-        nStartMasternodePayments = 1511092620;
+        nStartMasternodePayments = 1531769400;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -227,19 +227,17 @@ public:
         nToCheckBlockUpgradeMajority = 100;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1531594801;
-        genesis.nNonce = 250375;
+        genesis.nTime = 1531872001;
+        genesis.nNonce = 0;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285"));
-        assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+        //assert(hashGenesisBlock == uint256("0x000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285"));
+        //assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("testnet01.mempool.pw", "testnet01.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet02.mempool.pw", "testnet02.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet03.mempool.pw", "testnet03.mempool.pw"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet bulwark addresses start with 'T'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);  // Testnet bulwark script addresses start with '5' or '6'
@@ -261,7 +259,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "0479b254c36d7d23651d2a35303713a24db175a6835bd60fc98aff94c6922178b5ce69e293e6bcf761ad88e60d1731219a49af9ffe94f4bccc8e33edcda2c5f111";
         strObfuscationPoolDummyAddress = "TUQ57Fbh1crybrDhV6X9SDH95H4oSq4v6p";
-        nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
+        nStartMasternodePayments = 1531769401; //Fri, 09 Jan 2015 21:05:58 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -288,7 +286,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Bulwark: 1 day
         nTargetSpacing = 1 * 60;        // Bulwark: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1531594831;
+        genesis.nTime = 1531872031;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 12345;
         hashGenesisBlock = genesis.GetHash();
