@@ -24,8 +24,8 @@
       <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+            <state relative-caret-position="631">
+              <caret line="238" column="76" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -113,12 +113,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531754422756</updated>
       <workItem from="1531754424440" duration="730000" />
-      <workItem from="1531757772257" duration="1635000" />
+      <workItem from="1531757772257" duration="2257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2365000" />
+    <option name="totallyTimeSpent" value="2987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -179,8 +179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
+        <state relative-caret-position="631">
+          <caret line="238" column="76" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
         </state>
       </provider>
     </entry>
