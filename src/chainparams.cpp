@@ -152,7 +152,7 @@ public:
         genesis.nTime = 1532120400;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
         genesis.nNonce = 813860;
-        
+
 	    hashGenesisBlock = genesis.GetHash();
           assert(hashGenesisBlock == uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
 	        assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
@@ -187,7 +187,7 @@ public:
 
 	    nPoolMaxTransactions = 3;
         strSporkKey = "04690406b32b79097f8fee6a3fdb3209aec10425bbbc67c55b6506bd0d7f9db5e63d1a713e5a535d46d2ef70700a3c074609e7115033b156418f1888ee4b8ed9ce";
-        strObfuscationPoolDummyAddress = "bDiJwVuKv9dcKBN4KCfX6UmXbkpqLfzGyf";
+        strObfuscationPoolDummyAddress = "TERMj23o3XnTSxev16tSrT79sV2MeTSBsy";
         nStartMasternodePayments = 1537477200; //Monday, 23 Jul 2018 21:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
