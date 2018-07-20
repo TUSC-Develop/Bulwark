@@ -25,7 +25,7 @@ struct SeedSpec6 {
 };
 
 #include "chainparamsseeds.h"
--void MineGenesis(CBlock genesis){
+void MineGenesis(CBlock genesis){
     // This will figure out a valid hash and Nonce if you're creating a different genesis block:
     uint256 newhash = genesis.GetHash();
     uint256 besthash;
