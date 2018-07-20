@@ -77,7 +77,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -88,7 +88,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x00000cab5fcdc275b69361fe54d1406c1854db9f71d86243a9b7680e0f0c9551"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1532120401,
@@ -151,11 +151,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1532120400;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
+        genesis.nNonce = 813860;
         MineGenesis(genesis);
 	    hashGenesisBlock = genesis.GetHash();
-//        assert(hashGenesisBlock == uint256("0x0000068e7ab8e264f6759d2d81b29e8b917c10b04db47a9a0bb3cba3fba5d574"));
-//	    assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+          assert(hashGenesisBlock == uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
+	        assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -231,18 +231,16 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1532120401;
-        genesis.nNonce = 250375;
+        genesis.nNonce = 1508201;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000001a2f1a9a313468d66b81dd2cb199f6f8f5d426198a7c4daa9c3f9498285"));
-        assert(genesis.hashMerkleRoot == uint256("0x77976d6bd593c84063ac3937525bc15e25188d96871b13d4451ffc382999f64f"));
+        assert(hashGenesisBlock == uint256("0x00000cab5fcdc275b69361fe54d1406c1854db9f71d86243a9b7680e0f0c9551"));
+        assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("testnet01.mempool.pw", "testnet01.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet02.mempool.pw", "testnet02.mempool.pw"));
-        //vSeeds.push_back(CDNSSeedData("testnet03.mempool.pw", "testnet03.mempool.pw"));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 65); // Testnet bulwark addresses start with 'T'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 12);  // Testnet bulwark script addresses start with '5' or '6'

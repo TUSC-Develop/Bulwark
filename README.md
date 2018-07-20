@@ -19,10 +19,10 @@ That Universal Saving Coin offers both SwiftTX and Obfuscation to enable speedy 
 | Block Spacing         | 60 Seconds                              |
 | Difficulty Algorithm  | Dark Gravity Wave v3.0                  |
 | Block Size            | 1MB                                     |
-| Mined/Minted Maturity | 22 Blocks (~22 Minutes)                 |
-| Confirmation          | 6 Blocks (~9 Minutes)                   |
+| Mined/Minted Maturity | 20 Blocks (~40 Minutes)                 |
+| Confirmation          | 6 Blocks (~12 Minutes)                  |
 | PoW Period            | n/a (premine only)                      |
-| PoS Period            | nHeight ≥ 300                           |
+| PoS Period            | nHeight ≥ 970                           |
 | Protocol Support      | IPV4, IPV6, TOR                         |
 | PoS                   | SeeSaw & Split Rewards                  |
 
@@ -30,13 +30,14 @@ That Universal Saving Coin offers both SwiftTX and Obfuscation to enable speedy 
 
 | Subsidy  | Block         | PoW  | MN  | Circulation |
 |----------|---------------|------|-----|-------------|
-| 250000   | 1             | 100% | NA  | 250000      |
-| ~25(avg) | 2-300         | 100% | NA  | 257547      |
+| 300000   | 1             | 100% | NA  | 250000      |
+| ~10(avg) | 2-300         | 100% | NA  | 257547      |
 
 ## PoS Block Rewards
 
 | Subsidy | Block           | Budget | Circulation    | Note          |
 |---------|-----------------|--------|----------------|---------------|
-| 42.000  | 301-200000      | 0%     | SeeSaw         | Year 1        |
-| 37.500  | 200001-259200   | 0%     | 35/65          | Year 1        |
-| 31.250  | 259201-345600   | 0%     | 35/65          | Year 1        |
+| 10.000  | 970-200000      | 0%     | SeeSaw         | Year 1        |
+| 11.750  | 200001-259200   | 0%     | 35/65          | Year 1        |
+| 13.500  | 259201-345600   | 0%     | 35/65          | Year 1        |
+| 25.000  | 345601-431999   | 0%     | 35/65          |               |
