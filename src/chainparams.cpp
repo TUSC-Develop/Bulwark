@@ -77,28 +77,28 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
+        (0, uint256("0x"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1532120400,// * UNIX timestamp of last checkpoint block
+    1532300400,// * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x00000cab5fcdc275b69361fe54d1406c1854db9f71d86243a9b7680e0f0c9551"));
+	boost::assign::map_list_of(0, uint256("0x"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1532120401,
+    1532300401,
     0,
     250};
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    15321204031,
+    1532300431,
     0,
     100};
 class CMainParams : public CChainParams
@@ -122,13 +122,13 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Bulwark starting difficulty is 1 / 2^12
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 120; // Bulwark: 2 minutes
-        nTargetSpacingSlowLaunch = 5 * 90;  // Bulwark: 7.5 minutes (Slow launch - Block 300)
-	    nTargetSpacing = 1 * 120; // Bulwark: 2min after block 300
-        nLastPOWBlock = 970;
+        nTargetTimespan = 1 * 30; // Bulwark: 2 minutes
+        nTargetSpacingSlowLaunch = 1 * 30;  // Bulwark: 7.5 minutes (Slow launch - Block 300)
+	    nTargetSpacing = 1 * 30; // Bulwark: 2min after block 300
+        nLastPOWBlock = 301;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
-	    nRampToBlock = 960; // Slow start, ramp linearly to this block
+	    nRampToBlock = 2160; // Slow start, ramp linearly to this block
         nMaturity = 20; // 40 Minutes
 	    nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 1;
@@ -138,7 +138,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "July 20 2018 -THE GAURDIAN - Michael Cohen recorded Trump discussing payment to Playboy model – report";
+        const char* pszTimestamp = "July 22 2018 -THE NY Times - Carter Page FISA Documents Are Released by Justice Department";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -149,13 +149,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1532120400;
+        genesis.nTime = 1532300400;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 813860;
-
+        genesis.nNonce = 0;
+        MineGenesis(genesis);
 	    hashGenesisBlock = genesis.GetHash();
-          assert(hashGenesisBlock == uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
-	        assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
+      //    assert(hashGenesisBlock == uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
+	    //    assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -188,7 +188,7 @@ public:
 	    nPoolMaxTransactions = 3;
         strSporkKey = "04690406b32b79097f8fee6a3fdb3209aec10425bbbc67c55b6506bd0d7f9db5e63d1a713e5a535d46d2ef70700a3c074609e7115033b156418f1888ee4b8ed9ce";
         strObfuscationPoolDummyAddress = "TERMj23o3XnTSxev16tSrT79sV2MeTSBsy";
-        nStartMasternodePayments = 1537477200; //Monday, 23 Jul 2018 21:00:00 GMT
+        nStartMasternodePayments = 1532300401; //Monday, 23 Jul 2018 21:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -230,7 +230,7 @@ public:
         nToCheckBlockUpgradeMajority = 100;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1532120401;
+        genesis.nTime = 1532300401;
         genesis.nNonce = 1508201;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
@@ -262,7 +262,7 @@ public:
         nPoolMaxTransactions = 2;
         strSporkKey = "0479b254c36d7d23651d2a35303713a24db175a6835bd60fc98aff94c6922178b5ce69e293e6bcf761ad88e60d1731219a49af9ffe94f4bccc8e33edcda2c5f111";
         strObfuscationPoolDummyAddress = "TUQ57Fbh1crybrDhV6X9SDH95H4oSq4v6p";
-        nStartMasternodePayments = 1537477201; //Monday, 23 Jul 2018 21:00:01 GMT
+        nStartMasternodePayments = 1532300402; //Monday, 23 Jul 2018 21:00:01 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -289,7 +289,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // Bulwark: 1 day
         nTargetSpacing = 1 * 60;        // Bulwark: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1532120421;
+        genesis.nTime = 1532300431;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 12345;
         hashGenesisBlock = genesis.GetHash();

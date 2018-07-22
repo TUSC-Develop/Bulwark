@@ -1654,29 +1654,29 @@ int64_t GetBlockValue(int nHeight)
         nSlowSubsidy /= Params().RAMP_TO_BLOCK();
         nSlowSubsidy *= nHeight;
     } else if (nHeight <= 200000 && nHeight >= Params().RAMP_TO_BLOCK()) {
-	    nSubsidy = 10 * COIN;
+	    nSubsidy = 2.5 * COIN;
     } else if (nHeight <= 259200 && nHeight >= 200001) { // Keep reward schedule.
-        nSubsidy = 11.75 * COIN;
+        nSubsidy = 3.75 * COIN;
     } else if (nHeight <= 259199 && nHeight > 172800) {
-        nSubsidy = 13.5 * COIN;
+        nSubsidy = 4.5 * COIN;
     } else if (nHeight <= 345600 && nHeight >= 259201) {
-        nSubsidy = 17.25 * COIN;
+        nSubsidy = 5.0 * COIN;
     } else if (nHeight <= 431999 && nHeight >= 345601) {
-        nSubsidy = 25 * COIN;
+        nSubsidy = 5 * COIN;
     } else if (nHeight <= 518399 && nHeight >= 432000) {
-        nSubsidy = 21.875 * COIN;
+        nSubsidy = 5.875 * COIN;
     } else if (nHeight <= 604799 && nHeight >= 518400) {
-        nSubsidy = 18.750 * COIN;
+        nSubsidy = 5.750 * COIN;
     } else if (nHeight <= 691199 && nHeight >= 604800) {
-        nSubsidy = 15.625 * COIN;
+        nSubsidy = 5.625 * COIN;
     } else if (nHeight <= 777599 && nHeight >= 691200) {
-        nSubsidy = 12.50 * COIN;
+        nSubsidy = 4.50 * COIN;
     } else if (nHeight <= 863999 && nHeight >= 777600) {
-        nSubsidy = 10.938 * COIN;
+        nSubsidy = 3.938 * COIN;
     } else if (nHeight <= 950399 && nHeight >= 864000) {
-        nSubsidy = 9.375 * COIN;
+        nSubsidy = 2.375 * COIN;
     } else if (nHeight <= 1036799 && nHeight >= 950400) {
-        nSubsidy = 7.812 * COIN;
+        nSubsidy = 1.812 * COIN;
     } else {
         nSubsidy = 0 * COIN;
     }
