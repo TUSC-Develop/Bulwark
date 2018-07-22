@@ -77,7 +77,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x0000092ae8df54fd8cd2d7c28a6b3c80205f5334bdeef44c45e460ddfb7050f2"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -88,7 +88,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x00000a0b80b01f08197a617fb5372518c0147096d24f25d3569093f86138420f"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1532300401,
@@ -151,11 +151,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1532300400;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
-        MineGenesis(genesis);
+        genesis.nNonce = 545068;
+
 	    hashGenesisBlock = genesis.GetHash();
-      //    assert(hashGenesisBlock == uint256("0x000007e3f2531c4b94787bd08d9362cdb4ea8972a999677f93785f4335b601cb"));
-	    //    assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
+	        assert(genesis.hashMerkleRoot == uint256("0x0000092ae8df54fd8cd2d7c28a6b3c80205f5334bdeef44c45e460ddfb7050f2"));
+          assert(hashGenesisBlock == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -216,7 +216,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 30; // 30 Seconds
         nTargetSpacing = 1 * 30;  // 30 Seconds
-	    nTargetSpacingSlowLaunch = 1 * 30; // Kludgy but don't want to check for testnet each time in GetNextWorkRequired
+	    nTargetSpacingSlowLaunch = 1 * 30; //
 
         nLastPOWBlock = 1000;
         nLastPOWBlockOld = 1100;
@@ -231,12 +231,12 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1532300401;
-        genesis.nNonce = 1508201;
+        genesis.nNonce = 21819;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000cab5fcdc275b69361fe54d1406c1854db9f71d86243a9b7680e0f0c9551"));
-        assert(genesis.hashMerkleRoot == uint256("0x9323d734216822d4671e321e6dcc7622de860b510c0260a8bb8e11ee7a9bedbc"));
+        assert(hashGenesisBlock == uint256("0x00000a0b80b01f08197a617fb5372518c0147096d24f25d3569093f86138420f"));
+        assert(genesis.hashMerkleRoot == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
