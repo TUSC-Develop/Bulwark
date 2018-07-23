@@ -125,7 +125,7 @@ public:
         nTargetTimespan = 1 * 30; // Bulwark: 2 minutes
         nTargetSpacingSlowLaunch = 1 * 30;  // Bulwark: 7.5 minutes (Slow launch - Block 300)
 	    nTargetSpacing = 1 * 30; // Bulwark: 2min after block 300
-        nLastPOWBlock = 480;
+        nLastPOWBlock = 1260;
         nLastPOWBlockOld = 345600; // 1 year
 		nLastSeeSawBlock = 200000; // last block for seesaw rewards
 	    nRampToBlock = 160; // Slow start, ramp linearly to this block
