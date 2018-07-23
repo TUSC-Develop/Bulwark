@@ -154,8 +154,8 @@ public:
         genesis.nNonce = 545068;
 
 	    hashGenesisBlock = genesis.GetHash();
-	        assert(genesis.hashMerkleRoot == uint256("0x0000092ae8df54fd8cd2d7c28a6b3c80205f5334bdeef44c45e460ddfb7050f2"));
-          assert(hashGenesisBlock == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
+      assert(hashGenesisBlock == uint256("0x0000092ae8df54fd8cd2d7c28a6b3c80205f5334bdeef44c45e460ddfb7050f2"));
+	    assert(genesis.hashMerkleRoot == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -216,7 +216,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 30; // 30 Seconds
         nTargetSpacing = 1 * 30;  // 30 Seconds
-	    nTargetSpacingSlowLaunch = 1 * 30; //
+	    nTargetSpacingSlowLaunch = 1 * 30;
 
         nLastPOWBlock = 1000;
         nLastPOWBlockOld = 1100;
