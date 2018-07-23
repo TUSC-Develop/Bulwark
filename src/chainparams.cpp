@@ -77,7 +77,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-        (0, uint256("0x"));
+        (0, uint256("0x0000036fce32aff5ef52a9d077da4fa76cef688d0b3360d1004b890532fedefe"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -88,7 +88,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-	boost::assign::map_list_of(0, uint256("0x"));
+	boost::assign::map_list_of(0, uint256("0x000003e4742bbd7b0d8bee823e0856062e4f75e0c6c048bf90db589a5cd9e6cd"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1532364301,
@@ -138,7 +138,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
 
-        const char* pszTimestamp = "July 23 2018 -THE NY Times - Carter Page FISA Documents Are Released by Justice Department";
+        const char* pszTimestamp = "July 23 2018 - THE NY Times - Carter Page FISA Documents Are Released by Justice Department";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -151,11 +151,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1532364300;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();;
-        genesis.nNonce = 0;
+        genesis.nNonce = 1220463;
         MineGenesis(genesis);
 	    hashGenesisBlock = genesis.GetHash();
-//      assert(hashGenesisBlock == uint256("0x0000092ae8df54fd8cd2d7c28a6b3c80205f5334bdeef44c45e460ddfb7050f2"));
-//	    assert(genesis.hashMerkleRoot == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
+      assert(hashGenesisBlock == uint256("0x0000036fce32aff5ef52a9d077da4fa76cef688d0b3360d1004b890532fedefe"));
+	    assert(genesis.hashMerkleRoot == uint256("0x5110086b9ce4138acdaf2237196d9259c6e23df3ecf2b01dd561f3f56d491a22"));
 
       vSeeds.push_back(CDNSSeedData("tseed1.thatcoin.tech", "tseed1.thatcoin.tech"));      // Single node address
       vSeeds.push_back(CDNSSeedData("tseed2.thatcoin.tech", "tseed2.thatcoin.tech"));      // Single node address
@@ -231,12 +231,12 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1532364301;
-        genesis.nNonce = 21819;
+        genesis.nNonce = 590325;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000a0b80b01f08197a617fb5372518c0147096d24f25d3569093f86138420f"));
-        assert(genesis.hashMerkleRoot == uint256("0x69d6374ce9e1fc2355e76617780be576c1d65cc25d9b74bc74f40c1c521df22c"));
+        assert(hashGenesisBlock == uint256("0x000003e4742bbd7b0d8bee823e0856062e4f75e0c6c048bf90db589a5cd9e6cd"));
+        assert(genesis.hashMerkleRoot == uint256("0x5110086b9ce4138acdaf2237196d9259c6e23df3ecf2b01dd561f3f56d491a22"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
