@@ -187,7 +187,7 @@ public:
 
 	    nPoolMaxTransactions = 3;
         strSporkKey = "04690406b32b79097f8fee6a3fdb3209aec10425bbbc67c55b6506bd0d7f9db5e63d1a713e5a535d46d2ef70700a3c074609e7115033b156418f1888ee4b8ed9ce";
-        strObfuscationPoolDummyAddress = "TERMj23o3XnTSxev16tSrT79sV2MeTSBsy";
+        strObfuscationPoolDummyAddress = "TTqCxp37AapnvHWRXyW2tsDcyNn51W5GAb";
         nStartMasternodePayments = 1532300401; //Monday, 23 Jul 2018 21:00:00 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
